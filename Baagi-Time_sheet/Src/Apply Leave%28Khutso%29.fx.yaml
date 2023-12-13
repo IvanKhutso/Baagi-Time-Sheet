@@ -131,7 +131,7 @@
                         Fill: =Color.Transparent
                         Height: =100
                         HoverFill: =Self.Fill
-                        OnSelect: =Navigate(ThisItem.Screen)
+                        OnSelect: =Select(Parent)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth
