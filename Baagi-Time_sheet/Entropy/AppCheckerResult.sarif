@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Home Screen(Silu)",
-                "type": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2"
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2.TabIndex"
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2.TabIndex",
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Home Screen(Silu)",
-                "type": "'Home Screen(Silu)'.ScreenContainer1.HeaderContainer1.Icon2_2"
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2"
               }
             }
           ],
@@ -68,6 +68,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -158,66 +188,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.HeaderCont_ApplyLeave.IcnBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -494,197 +464,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1.AccessibleLabel"
+                  "fullyQualifiedName": "App.BaagiGrey"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1.AccessibleLabel",
+                  "fullyQualifiedName": "App.BaagiGrey",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim(MGWENA)",
-                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Travel Claim(MGWENA)",
-                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.HeaderContainer1_2.Icon2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim(MGWENA)",
-                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Travel Claim(MGWENA)",
-                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim(MGWENA)",
-                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.MainSectionContainer1_2.Form1_2.Attachments_DataCard1_2.DataCardValue12_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.BaagiRed"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.BaagiRed",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "BaagiRed",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.BaagiBlack"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.BaagiBlack",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "BaagiBlack",
+                "member": "BaagiGrey",
                 "module": "App",
                 "type": "App"
               }
@@ -734,17 +524,47 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.BaagiGrey"
+                  "fullyQualifiedName": "App.BaagiBlack"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.BaagiGrey",
+                  "fullyQualifiedName": "App.BaagiBlack",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "BaagiGrey",
+                "member": "BaagiBlack",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.BaagiRed"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.BaagiRed",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "BaagiRed",
                 "module": "App",
                 "type": "App"
               }

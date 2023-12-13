@@ -32,12 +32,6 @@
             RadiusTopRight: =8
             ZIndex: =2
 
-            IcnBack As icon.BackArrow:
-                Color: =BaagiMidBlue
-                Icon: =Icon.BackArrow
-                OnSelect: =Back()
-                ZIndex: =1
-
             lblHeaderApplLeave As label:
                 Align: =Align.Center
                 Color: =BaagiMidBlue
@@ -94,12 +88,13 @@
                     DelayItemLoading: =true
                     Items: =coltabs
                     Layout: =Layout.Vertical
-                    LayoutMinHeight: =287
+                    LayoutMinHeight: =100
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
+                    ShowScrollbar: =false
                     TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
-                    TemplatePadding: =10
+                    TemplatePadding: =0
                     TemplateSize: =Parent.Height
                     WrapCount: =CountRows(coltabs)
                     ZIndex: =1
@@ -112,7 +107,7 @@
                         OnSelect: =Select(Parent)
                         Text: =ThisItem.Name
                         Width: =Parent.TemplateWidth
-                        Y: =43
+                        Y: =54
                         ZIndex: =1
 
                     Icon4_1 As icon.Add:
@@ -120,8 +115,8 @@
                         Icon: =ThisItem.Logo
                         OnSelect: =Select(Parent)
                         Width: =30
-                        X: |
-                            =(Parent.TemplateWidth-Self.Width)/2
+                        X: =145
+                        Y: =11
                         ZIndex: =2
 
                     Rectangle3_1 As rectangle:
@@ -134,9 +129,9 @@
 
                     Button1_1 As button:
                         Fill: =Color.Transparent
-                        Height: =Parent.TemplateHeight
+                        Height: =100
                         HoverFill: =Self.Fill
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth
@@ -151,6 +146,7 @@
 
                 Form2 As form:
                     DataSource: =Leave
+                    DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
                     LayoutMinWidth: =400
                     ZIndex: =1
@@ -167,6 +163,7 @@
                         Required: =false
                         Update: =DataCardValue20.Text
                         Width: =444
+                        WidthFit: =true
                         X: =0
                         Y: =0
                         ZIndex: =2
@@ -234,6 +231,7 @@
                         Required: =false
                         Update: =DataCardValue21.Selected
                         Width: =444
+                        WidthFit: =true
                         X: =1
                         Y: =0
                         ZIndex: =2
@@ -300,6 +298,7 @@
                         Required: =false
                         Update: =DataCardValue22.SelectedDate
                         Width: =444
+                        WidthFit: =true
                         X: =2
                         Y: =0
                         ZIndex: =2
@@ -365,6 +364,7 @@
                         Required: =false
                         Update: =Value(DataCardValue23.Text)
                         Width: =444
+                        WidthFit: =true
                         X: =0
                         Y: =1
                         ZIndex: =2
@@ -432,6 +432,7 @@
                         Required: =false
                         Update: =DataCardValue24.Selected
                         Width: =444
+                        WidthFit: =true
                         X: =1
                         Y: =1
                         ZIndex: =2
@@ -498,6 +499,7 @@
                         Required: =false
                         Update: =DataCardValue25.Selected
                         Width: =444
+                        WidthFit: =true
                         X: =2
                         Y: =1
                         ZIndex: =2
@@ -564,6 +566,7 @@
                         Required: =false
                         Update: =DataCardValue26.Attachments
                         Width: =444
+                        WidthFit: =true
                         X: =0
                         Y: =2
                         ZIndex: =2

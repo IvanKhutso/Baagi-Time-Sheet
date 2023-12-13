@@ -70,21 +70,25 @@ App As appinfo:
                 ID: 1,
                 Name: "Time Sheet",
                 Logo: Icon.Clock
+                
             },
             {
                 ID: 2,
                 Name: "Apply Leave",
-                Logo: Icon.Leave
+                Logo: Icon.Leave,
+                Screen: 'Apply Leave(Khutso)'
             },
             {
                 ID: 3,
                 Name: "Travel Claim",
-                Logo: Icon.Cars
+                Logo: Icon.Cars,
+                Screen: 'Travel Claim(MGWENA)'
             },
             {
                 ID: 4,
                 Name: "Leave Status",
                 Logo: Icon.QuestionMark
+                
             }
         );
         Set(

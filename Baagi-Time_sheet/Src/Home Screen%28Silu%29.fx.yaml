@@ -31,12 +31,6 @@
             RadiusTopRight: =8
             ZIndex: =2
 
-            Icon2_2 As icon.BackArrow:
-                Color: =BaagiMidBlue
-                Icon: =Icon.BackArrow
-                OnSelect: =Back()
-                ZIndex: =1
-
             lblHeader As label:
                 Align: =Align.Center
                 Color: =BaagiMidBlue
@@ -96,6 +90,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
+                    ShowScrollbar: =false
                     TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
                     TemplatePadding: =10
                     TemplateSize: =Parent.Height
@@ -134,7 +129,7 @@
                         Fill: =Color.Transparent
                         Height: =Parent.TemplateHeight
                         HoverFill: =Self.Fill
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth
@@ -149,6 +144,7 @@
 
                 Form1 As form.PowerApps_CoreControls_Form:
                     DataSource: =Timesheet
+                    DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
                     LayoutMinWidth: =400
                     UseFluentV9Cards: =true
