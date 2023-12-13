@@ -14,6 +14,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.TabIndex"
                 }
               ],
@@ -98,6 +158,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -194,6 +314,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.AccessibleLabel"
                 }
               ],
@@ -254,6 +434,186 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Rectangle3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Icon4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.TabsContainer_2.gallTabs_2.Label4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.MainSectionContainer1_1.frmApplyLeave.Attachments_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
@@ -284,6 +644,186 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.BaagiGrey"
                 }
               ],
@@ -307,7 +847,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -337,7 +877,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -367,7 +907,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -397,7 +937,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -437,6 +977,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-FocusBorderShouldBeVisible",
+              "messageStrings": {
+                "issue": {
+                  "text": "Focus isn't showing"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the FocusedBorderThickness property to be more than 0."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
               }
             },
             {

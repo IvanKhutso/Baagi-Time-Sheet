@@ -39,7 +39,10 @@
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =Switch('Apply Leave(Khutso)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
-                Text: =Switch('Apply Leave(Khutso)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
+                Text: |-
+                    =/*Switch('Apply Leave(Khutso)'.Size ;ScreenSize.Small;"⌛Sheet & 😄Leave."; ScreenSize.Medium; "⌛Sheet & 😄Leave."; "⌛Time Sheet & 😄Leave.")*/
+                    
+                    gallTabs_1.Selected.Name
                 ZIndex: =2
 
             lblWelcomeApplLeave As label:
@@ -104,7 +107,7 @@
                         Color: =RGBA(15, 108, 189, 1)
                         FontWeight: =FontWeight.Bold
                         Height: =35
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
                         Text: =ThisItem.Name
                         Width: =Parent.TemplateWidth
                         Y: =54
@@ -113,7 +116,7 @@
                     Icon4_1 As icon.Add:
                         Height: =43
                         Icon: =ThisItem.Logo
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
                         Width: =30
                         X: =(Parent.TemplateWidth-Self.Width)/2
                         Y: =11
@@ -121,7 +124,7 @@
 
                     Rectangle3_1 As rectangle:
                         Height: =4
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
                         Visible: =varTabSelected = ThisItem.ID
                         Width: =Parent.TemplateWidth
                         Y: =96
@@ -131,7 +134,7 @@
                         Fill: =Color.Transparent
                         Height: =100
                         HoverFill: =Self.Fill
-                        OnSelect: =Select(Parent)
+                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth
