@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.TabIndex"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.TabIndex",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.TabIndex"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1.TabIndex",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Icon4_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.TabIndex"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1.TabIndex",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Label4_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.TabIndex"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1.TabIndex",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.TabsContainer_1.gallTabs_1.Rectangle3_1"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.MainSectionContainer1_1.frmApplyLeave.Attachments_DataCard2.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Leave.Attachments_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.MainSectionContainer1_1.frmApplyLeave.Attachments_DataCard2.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Leave.Attachments_DataCard2.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.ScrnCont_ApplyLeave.MainContainer1_1.MainSectionContainer1_1.frmApplyLeave.Attachments_DataCard2.DataCardValue20"
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Leave.Attachments_DataCard2.DataCardValue20"
               }
             }
           ],

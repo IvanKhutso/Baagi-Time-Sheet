@@ -1,6 +1,6 @@
 "'Apply Leave(Khutso)' As screen.'autoLayout_HeaderFooter_ver1.0'":
 
-    ScrnCont_ApplyLeave As groupContainer.verticalAutoLayoutContainer:
+    vcn_ApplyLeave_Main As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -15,7 +15,7 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderCont_ApplyLeave As groupContainer.horizontalAutoLayoutContainer:
+        hcn_ApplyLeave_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Semibold
             Fill: =BaagiLightBlue
@@ -32,7 +32,7 @@
             RadiusTopRight: =8
             ZIndex: =2
 
-            lblHeaderApplLeave As label:
+            lbl_ApplyLeave_Header As label:
                 Align: =Align.Center
                 Color: =BaagiMidBlue
                 FillPortions: =1
@@ -45,7 +45,7 @@
                     //gallTabs_1.Selected.Name
                 ZIndex: =2
 
-            lblWelcomeApplLeave As label:
+            lbl_ApplyLeave_UserName As label:
                 Color: =BaagiMidBlue
                 FontWeight: =FontWeight.Bold
                 Height: =75
@@ -54,7 +54,7 @@
                 Visible: ='Apply Leave(Khutso)'.Size<>ScreenSize.Small && 'Apply Leave(Khutso)'.Size<>ScreenSize.Medium
                 ZIndex: =3
 
-            imgUserApplyLeave As image:
+            img_ApplyLeave_User As image:
                 Height: =75
                 Image: =User().Image
                 PaddingLeft: =1
@@ -79,7 +79,7 @@
             RadiusTopRight: =8
             ZIndex: =3
 
-            TabsContainer_1 As groupContainer.horizontalAutoLayoutContainer:
+            hcn_ApplyLeave_Tabs As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =100
                 LayoutMinHeight: =100
@@ -88,6 +88,7 @@
                 ZIndex: =1
 
                 gallTabs_1 As gallery.galleryVertical:
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Items: =coltabs
                     Layout: =Layout.Vertical
@@ -153,7 +154,7 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                frmApplyLeave As form.PowerApps_CoreControls_Form:
+                efm_ApplyLeave_Leave As form.PowerApps_CoreControls_Form:
                     DataSource: =Leave
                     DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
@@ -741,7 +742,7 @@
                             Y: =DataCardKey21.Y
                             ZIndex: =4
 
-        FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        hcn_ApplyLeave_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Semibold
             Fill: =BaagiLightBlue
@@ -766,7 +767,6 @@
                 ZIndex: =1
 
             Image2_1 As image:
-                AlignInContainer: =AlignInContainer.Center
                 Height: =75
                 Image: ='baagi_technology logo'
                 ImagePosition: =ImagePosition.Stretch
