@@ -106,7 +106,9 @@
                         Color: =RGBA(15, 108, 189, 1)
                         FontWeight: =FontWeight.Bold
                         Height: =35
-                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
+                        OnSelect: |-
+                            =//Navigate(ThisItem.Screen);;
+                            Select(Parent)
                         Text: =ThisItem.Name
                         Width: =Parent.TemplateWidth
                         Y: =54
@@ -115,7 +117,9 @@
                     Icon4_3 As icon.Add:
                         Height: =43
                         Icon: =ThisItem.Logo
-                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
+                        OnSelect: |-
+                            =//Navigate(ThisItem.Screen);;
+                            Select(Parent)
                         Width: =30
                         X: =(Parent.TemplateWidth-Self.Width)/2
                         Y: =11
@@ -123,7 +127,9 @@
 
                     Rectangle3_3 As rectangle:
                         Height: =4
-                        OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
+                        OnSelect: |-
+                            =//Navigate(ThisItem.Screen);;
+                            Select(Parent)
                         Visible: =varTabSelected = ThisItem.ID
                         Width: =Parent.TemplateWidth
                         Y: =85
