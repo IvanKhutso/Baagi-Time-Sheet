@@ -39,9 +39,9 @@
                 Height: =75
                 Size: =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =//Switch('Travel Claim(MGWENA)'.Size ;ScreenSize.Small;"⌛Sheet & 😄Leave."; ScreenSize.Medium; "⌛Sheet & 😄Leave."; "⌛Time Sheet & 😄Leave.")
+                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
                     
-                    gallTabs_2.Selected.Name
+                    //gallTabs_2.Selected.Name
                 ZIndex: =2
 
             lblWelcome_2 As label:

@@ -40,9 +40,9 @@
                 Height: =75
                 Size: =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =//Switch('Time Sheet(Silu)'.Size ;ScreenSize.Small;"⌛Sheet & 😄Leave."; ScreenSize.Medium; "⌛Sheet & 😄Leave."; "⌛Time Sheet & 😄Leave.")
+                    =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
                     
-                    gallTabs_3.Selected.Name
+                    //gallTabs_3.Selected.Name
                 ZIndex: =2
 
             lblWelcome As label:
