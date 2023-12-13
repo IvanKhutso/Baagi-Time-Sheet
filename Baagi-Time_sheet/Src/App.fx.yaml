@@ -1,0 +1,102 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |
+        =Set(
+            BaagiLightBlue,
+            RGBA(
+                173,
+                216,
+                230,
+                1
+            )
+        );
+        Set(
+            BaagiWhiteSmoke,
+            RGBA(
+                245,
+                245,
+                245,
+                1
+            )
+        );
+        Set(
+            BaagiRed,
+            RGBA(
+                255,
+                99,
+                71,
+                1
+            )
+        );
+        Set(
+            BaagiBlack,
+            RGBA(
+                0,
+                0,
+                0,
+                1
+            )
+        );
+        Set(
+            BaagiFontMor,
+            RGBA(
+                128,
+                0,
+                0,
+                1
+            )
+        );
+        Set(
+            BaagiGrey,
+            RGBA(
+                128,
+                128,
+                128,
+                1
+            )
+        );
+        Set(
+            BaagiMidBlue,
+            RGBA(
+                25,
+                25,
+                112,
+                1
+            )
+        );
+        ClearCollect(
+            coltabs,
+            {
+                ID: 1,
+                Name: "Time Sheet",
+                Logo: Icon.Clock
+            },
+            {
+                ID: 2,
+                Name: "Apply Leave",
+                Logo: Icon.Leave
+            },
+            {
+                ID: 3,
+                Name: "Travel Claim",
+                Logo: Icon.Cars
+            },
+            {
+                ID: 4,
+                Name: "Leave Status",
+                Logo: Icon.QuestionMark
+            }
+        );
+        Set(
+            varTabSelected,
+            1
+        );
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

@@ -1,0 +1,120 @@
+"Test As screen.'autoLayout_HeaderFooter_ver1.0'":
+
+    contMainScreen As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =5
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =BaagiLightBlue
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Icon1 As icon.Waffle:
+                Color: =BaagiMidBlue
+                Icon: =Icon.Waffle
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                ZIndex: =1
+
+            Label3 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Stretch
+                Color: =BaagiMidBlue
+                FillPortions: =1
+                FontWeight: =FontWeight.Bold
+                Size: =28
+                Text: =Switch(Test.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
+                ZIndex: =2
+
+            Label5 As label:
+                AlignInContainer: =AlignInContainer.Stretch
+                Color: =BaagiMidBlue
+                FontWeight: =FontWeight.Bold
+                Size: =11
+                Text: =Concatenate("Welcome"," ",User().FullName)
+                ZIndex: =3
+
+            Image1 As image:
+                Height: =75
+                Image: =User().Image
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Width: =75
+                ZIndex: =4
+
+        contBodyScreen As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =3
+
+            Container6 As groupContainer.horizontalAutoLayoutContainer:
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+        contFooter As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =BaagiLightBlue
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.End
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =4
+
+            Label6 As label:
+                Color: =BaagiMidBlue
+                FontWeight: =FontWeight.Bold
+                Size: =9
+                Text: ="Powered By Baagitech"
+                ZIndex: =1
+
+            Image4 As image:
+                Height: =75
+                Image: ='baagi_technology logo'
+                ImagePosition: =ImagePosition.Stretch
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                ZIndex: =2
+
