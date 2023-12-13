@@ -6274,7 +6274,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon2_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6747,7 +6747,7 @@
       "MetaDataIDKey": "",
       "Name": "Image2_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7058,7 +7058,7 @@
       "MetaDataIDKey": "",
       "Name": "Image3_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7330,7 +7330,7 @@
       "MetaDataIDKey": "",
       "Name": "Label2_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7970,7 +7970,7 @@
       "MetaDataIDKey": "",
       "Name": "lblHeader_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8307,7 +8307,7 @@
       "MetaDataIDKey": "",
       "Name": "lblWelcome_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
