@@ -124,7 +124,7 @@
                         OnSelect: =Select(Parent)
                         Visible: =varTabSelected = ThisItem.ID
                         Width: =Parent.TemplateWidth
-                        Y: =85
+                        Y: =96
                         ZIndex: =3
 
                     Button1_1 As button:

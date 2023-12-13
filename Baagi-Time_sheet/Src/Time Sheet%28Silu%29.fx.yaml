@@ -82,22 +82,22 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                gallTabs As gallery.galleryVertical:
+                gallTabs_3 As gallery.galleryVertical:
                     DelayItemLoading: =true
                     Items: =coltabs
                     Layout: =Layout.Vertical
-                    LayoutMinHeight: =287
+                    LayoutMinHeight: =100
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
                     ShowScrollbar: =false
                     TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
-                    TemplatePadding: =10
+                    TemplatePadding: =0
                     TemplateSize: =Parent.Height
                     WrapCount: =CountRows(coltabs)
                     ZIndex: =1
 
-                    Label4 As label:
+                    Label4_3 As label:
                         Align: =Align.Center
                         Color: =RGBA(15, 108, 189, 1)
                         FontWeight: =FontWeight.Bold
@@ -105,19 +105,19 @@
                         OnSelect: =Select(Parent)
                         Text: =ThisItem.Name
                         Width: =Parent.TemplateWidth
-                        Y: =43
+                        Y: =54
                         ZIndex: =1
 
-                    Icon4 As icon.Add:
+                    Icon4_3 As icon.Add:
                         Height: =43
                         Icon: =ThisItem.Logo
                         OnSelect: =Select(Parent)
                         Width: =30
-                        X: |
-                            =(Parent.TemplateWidth-Self.Width)/2
+                        X: =(Parent.TemplateWidth-Self.Width)/2
+                        Y: =11
                         ZIndex: =2
 
-                    Rectangle3 As rectangle:
+                    Rectangle3_3 As rectangle:
                         Height: =4
                         OnSelect: =Select(Parent)
                         Visible: =varTabSelected = ThisItem.ID
@@ -125,11 +125,11 @@
                         Y: =85
                         ZIndex: =3
 
-                    Button1 As button:
+                    Button1_3 As button:
                         Fill: =Color.Transparent
-                        Height: =Parent.TemplateHeight
+                        Height: =100
                         HoverFill: =Self.Fill
-                        OnSelect: =Navigate(ThisItem.Screen)
+                        OnSelect: =Select(Parent)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth

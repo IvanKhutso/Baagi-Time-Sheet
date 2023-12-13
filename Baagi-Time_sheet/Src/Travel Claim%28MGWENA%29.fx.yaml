@@ -92,8 +92,8 @@
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
                     ShowScrollbar: =false
                     TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
-                    TemplatePadding: =10
-                    TemplateSize: =100
+                    TemplatePadding: =0
+                    TemplateSize: =Parent.Height
                     WrapCount: =CountRows(coltabs)
                     ZIndex: =1
 
@@ -105,7 +105,7 @@
                         OnSelect: =Select(Parent)
                         Text: =ThisItem.Name
                         Width: =Parent.TemplateWidth
-                        Y: =43
+                        Y: =54
                         ZIndex: =1
 
                     Icon4_2 As icon.Add:
@@ -113,8 +113,8 @@
                         Icon: =ThisItem.Logo
                         OnSelect: =Select(Parent)
                         Width: =30
-                        X: |
-                            =(Parent.TemplateWidth-Self.Width)/2
+                        X: =(Parent.TemplateWidth-Self.Width)/2
+                        Y: =11
                         ZIndex: =2
 
                     Rectangle3_2 As rectangle:
@@ -127,9 +127,9 @@
 
                     Button1_2 As button:
                         Fill: =Color.Transparent
-                        Height: =Parent.TemplateHeight
+                        Height: =100
                         HoverFill: =Self.Fill
-                        OnSelect: =Navigate(ThisItem.Screen)
+                        OnSelect: =Select(Parent)
                         PressedFill: =Self.Fill
                         Text: =""
                         Width: =Parent.TemplateWidth
