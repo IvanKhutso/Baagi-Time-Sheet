@@ -1,4 +1,4 @@
-"'Home Screen(Silu)' As screen.'autoLayout_HeaderFooter_ver1.0'":
+"'Time Sheet(Silu)' As screen.'autoLayout_HeaderFooter_ver1.0'":
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -37,8 +37,8 @@
                 FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                Size: =Switch('Home Screen(Silu)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
-                Text: =Switch('Home Screen(Silu)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
+                Size: =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
+                Text: =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
                 ZIndex: =2
 
             lblWelcome As label:
@@ -47,7 +47,7 @@
                 Height: =75
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
-                Visible: ='Home Screen(Silu)'.Size<>ScreenSize.Small && 'Home Screen(Silu)'.Size<>ScreenSize.Medium
+                Visible: ='Time Sheet(Silu)'.Size<>ScreenSize.Small && 'Time Sheet(Silu)'.Size<>ScreenSize.Medium
                 ZIndex: =3
 
             Image3 As image:
