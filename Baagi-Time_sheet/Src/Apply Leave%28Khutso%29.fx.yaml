@@ -96,7 +96,7 @@
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
                     ShowScrollbar: =false
-                    TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
+                    TemplateFill: =
                     TemplatePadding: =0
                     TemplateSize: =Parent.Height
                     WrapCount: =CountRows(coltabs)
