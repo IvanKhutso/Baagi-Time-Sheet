@@ -97,7 +97,7 @@
                     LoadingSpinner: =LoadingSpinner.Data
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
                     ShowScrollbar: =false
-                    TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
+                    TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), RGBA(0, 0, 0, 0))
                     TemplatePadding: =0
                     TemplateSize: =Parent.Height
                     WrapCount: =CountRows(coltabs)
@@ -360,7 +360,7 @@
                     Num_Days_DataCard1 As typedDataCard.fluentV9NumberEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Num_Days"
-                        Default: =ThisItem.Num_Days
+                        Default: =ThisItem.Days
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Num_Days")
                         Fill: =RGBA(0, 0, 0, 0)
@@ -548,7 +548,7 @@
                     From_DataCard1 As typedDataCard.fluentV9DateEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="From"
-                        Default: =ThisItem.From
+                        Default: =ThisItem.'Start Date'
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"From")
                         Fill: =RGBA(0, 0, 0, 0)
@@ -614,7 +614,7 @@
                     To_DataCard1 As typedDataCard.fluentV9DateEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="To"
-                        Default: =ThisItem.To
+                        Default: =ThisItem.'End Date'
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"To")
                         Fill: =RGBA(0, 0, 0, 0)
