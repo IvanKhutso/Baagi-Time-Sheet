@@ -157,6 +157,7 @@
                     DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
                     LayoutMinWidth: =400
+                    NumberOfColumns: =2
                     UseFluentV9Cards: =true
                     ZIndex: =1
 
@@ -171,7 +172,7 @@
                         MaxLength: =DataSourceInfo([@Timesheet], DataSourceInfo.MaxLength, "Title")
                         Required: =false
                         Update: =DataCardValue1.Value
-                        Width: =444
+                        Width: =222
                         X: =0
                         Y: =0
                         ZIndex: =2
@@ -237,7 +238,7 @@
                         Height: =70
                         Required: =false
                         Update: =dte_FomeScreen_Date.SelectedDate
-                        Width: =444
+                        Width: =222
                         X: =1
                         Y: =0
                         ZIndex: =2
@@ -303,9 +304,9 @@
                         Height: =70
                         Required: =false
                         Update: =Value(DataCardValue3.Value)
-                        Width: =444
-                        X: =2
-                        Y: =0
+                        Width: =222
+                        X: =0
+                        Y: =1
                         ZIndex: =2
 
                         DataCardKey3 As Text:
@@ -368,8 +369,8 @@
                         MaxLength: =DataSourceInfo([@Timesheet], DataSourceInfo.MaxLength, "Task")
                         Required: =false
                         Update: =DataCardValue4.Value
-                        Width: =444
-                        X: =0
+                        Width: =222
+                        X: =1
                         Y: =1
                         ZIndex: =2
 
@@ -434,9 +435,9 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue5.Selected
-                        Width: =444
-                        X: =1
-                        Y: =1
+                        Width: =222
+                        X: =0
+                        Y: =2
                         ZIndex: =2
 
                         DataCardKey5 As Text:
@@ -486,132 +487,6 @@
                             Y: =DataCardKey5.Y
                             ZIndex: =4
 
-                    Leave_ID_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Leave_ID"
-                        Default: =ThisItem.Leave_ID
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Leave_ID")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =DataCardValue6.Selected
-                        Width: =444
-                        X: =2
-                        Y: =1
-                        ZIndex: =2
-
-                        DataCardKey6 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue6 As Combobox.pcfdataset:
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            Items: =Choices([@Timesheet].Leave_ID)
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey6.Y + DataCardKey6.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage6 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue6.Y + DataCardValue6.Height
-                            ZIndex: =3
-
-                        StarVisible6 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =20
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey6.Y
-                            ZIndex: =4
-
-                    Total_Hours_DataCard1 As typedDataCard.fluentV9NumberEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Total_Hours"
-                        Default: =ThisItem.Total_Hours
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Total_Hours")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =Value(DataCardValue7.Value)
-                        Width: =444
-                        X: =0
-                        Y: =2
-                        ZIndex: =2
-
-                        DataCardKey7 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue7 As 'Text input'":
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            BasePaletteColor: =
-                            DisplayMode: =Parent.DisplayMode
-                            FontColor: =
-                            Height: =32
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey7.Y + DataCardKey7.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage7 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue7.Y + DataCardValue7.Height
-                            ZIndex: =3
-
-                        StarVisible7 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey7.Y
-                            ZIndex: =4
-
                     Regular_Hours_DataCard1 As typedDataCard.fluentV9NumberEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Regular_Hours"
@@ -622,7 +497,7 @@
                         Height: =70
                         Required: =false
                         Update: =Value(DataCardValue8.Value)
-                        Width: =444
+                        Width: =222
                         X: =1
                         Y: =2
                         ZIndex: =2
@@ -676,70 +551,6 @@
                             Y: =DataCardKey8.Y
                             ZIndex: =4
 
-                    Overtime_Hours_DataCard1 As typedDataCard.fluentV9NumberEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Overtime_Hours"
-                        Default: =ThisItem.Overtime_Hours
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Overtime_Hours")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =Value(DataCardValue9.Value)
-                        Width: =444
-                        X: =2
-                        Y: =2
-                        ZIndex: =2
-
-                        DataCardKey9 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue9 As 'Text input'":
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            BasePaletteColor: =
-                            DisplayMode: =Parent.DisplayMode
-                            FontColor: =
-                            Height: =32
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey9.Y + DataCardKey9.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage9 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue9.Y + DataCardValue9.Height
-                            ZIndex: =3
-
-                        StarVisible9 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey9.Y
-                            ZIndex: =4
-
                     Approval_Status_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Approval_Status"
@@ -747,10 +558,10 @@
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Approval_Status")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =86
+                        Height: =98
                         Required: =false
                         Update: =DataCardValue10.Selected
-                        Width: =444
+                        Width: =222
                         X: =0
                         Y: =3
                         ZIndex: =2
@@ -763,8 +574,8 @@
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
                             Wrap: =false
-                            X: =24
-                            Y: =10
+                            X: =30
+                            Y: =19
                             ZIndex: =1
 
                         DataCardValue10 As Combobox.pcfdataset:
@@ -774,8 +585,8 @@
                             Items: =Choices([@Timesheet].Approval_Status)
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey10.Y + DataCardKey10.Height + 4
+                            X: =30
+                            Y: =53
                             ZIndex: =2
 
                         ErrorMessage10 As Text:
@@ -812,7 +623,7 @@
                         Height: =70
                         Required: =false
                         Update: =DataCardValue11.Selected
-                        Width: =444
+                        Width: =222
                         X: =1
                         Y: =3
                         ZIndex: =2
@@ -862,72 +673,6 @@
                             Width: =30
                             X: =0
                             Y: =DataCardKey11.Y
-                            ZIndex: =4
-
-                    Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="{Attachments}"
-                        Default: =ThisItem.Attachments
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"{Attachments}")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =134
-                        Required: =false
-                        Update: =DataCardValue12.Attachments
-                        Width: =444
-                        X: =2
-                        Y: =3
-                        ZIndex: =2
-
-                        DataCardKey12 As label:
-                            AutoHeight: =true
-                            Height: =34
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =15
-                            ZIndex: =1
-
-                        DataCardValue12 As attachments:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =194
-                            IsInDataCard: =true
-                            Items: =Parent.Default
-                            PaddingBottom: =5
-                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                            PaddingRight: =5
-                            PaddingTop: =5
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey12.Y + DataCardKey12.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage12 As label:
-                            AutoHeight: =true
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue12.Y + DataCardValue12.Height
-                            ZIndex: =3
-
-                        StarVisible12 As label:
-                            Align: =Align.Center
-                            Height: =DataCardKey12.Height
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey12.Y
                             ZIndex: =4
 
         FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
