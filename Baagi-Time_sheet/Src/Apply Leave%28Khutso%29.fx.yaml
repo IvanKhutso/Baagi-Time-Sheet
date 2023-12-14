@@ -194,7 +194,7 @@
                     crd_ApplyLeave_LeaveType As typedDataCard.fluentV9ComboBoxEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Leave_Type"
-                        Default: =ThisItem.Leave_Type
+                        Default: =ThisItem.'Leave Type'
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Leave_Type")
                         Fill: =RGBA(0, 0, 0, 0)
@@ -225,7 +225,7 @@
                     crd_ApplyLeave_ApprovalStatus As typedDataCard.fluentV9ComboBoxEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Approval_Status"
-                        Default: =ThisItem.Approval_Status
+                        Default: =ThisItem.'Approval Status'
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Approval_Status")
                         Fill: =RGBA(0, 0, 0, 0)
@@ -240,7 +240,7 @@
                     crd_ApplyLeave_EmployeeNumber As typedDataCard.fluentV9ComboBoxEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Employee_Number"
-                        Default: =ThisItem.Employee_Number
+                        Default: =ThisItem.'Employee Number'
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Employee_Number")
                         Fill: =RGBA(0, 0, 0, 0)
