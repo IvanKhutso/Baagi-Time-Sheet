@@ -35,7 +35,6 @@
       "Employee_Number#Id": "Employee_Number Id",
       "From": "Start Date",
       "ID": "ID",
-      "Leave_Date": "Leave_Date",
       "Leave_Type": "Leave_Type",
       "Leave_Type#Id": "Leave_Type Id",
       "Modified": "Modified",

@@ -19,24 +19,24 @@ App As appinfo:
                 1
             )
         );
-        Set(
-            BaagiRed,
+        /*Set(
+            BaagiRed;
             RGBA(
-                255,
-                99,
-                71,
+                255;
+                99;
+                71;
                 1
             )
-        );
-        Set(
-            BaagiBlack,
+        );;*/
+        /*Set(
+            BaagiBlack;
             RGBA(
-                0,
-                0,
-                0,
+                0;
+                0;
+                0;
                 1
             )
-        );
+        );;*/
         Set(
             BaagiFontMor,
             RGBA(
