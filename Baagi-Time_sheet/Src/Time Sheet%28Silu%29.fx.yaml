@@ -199,8 +199,8 @@
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
                             Width: =Parent.Width - 48
-                            X: =0
-                            Y: =0
+                            X: =24
+                            Y: =31
                             ZIndex: =2
 
                         ErrorMessage1 As Text:
