@@ -24,12 +24,16 @@
         "dataSources": {
           "Leave": {
             "tableName": "c6f95def-7336-47aa-9eb4-982ab17d0beb"
+          },
+          "Travel": {
+            "tableName": "86d1d017-a810-466f-a2d7-c2097e597c43"
           }
         }
       }
     },
     "dataSources": [
-      "Leave"
+      "Leave",
+      "Travel"
     ],
     "dependencies": {},
     "dependents": [],

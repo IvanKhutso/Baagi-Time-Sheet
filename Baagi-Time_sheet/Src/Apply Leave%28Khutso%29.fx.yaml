@@ -177,21 +177,6 @@
                         Y: =0
                         ZIndex: =2
 
-                    "'End Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="To"
-                        Default: =ThisItem.'End Date'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"To")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =true
-                        Update: =DataCardValue19.SelectedDate
-                        Width: =444
-                        X: =0
-                        Y: =2
-                        ZIndex: =2
-
                     "'Start Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="From"
@@ -205,6 +190,21 @@
                         Width: =444
                         X: =2
                         Y: =1
+                        ZIndex: =2
+
+                    "'End Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="To"
+                        Default: =ThisItem.'End Date'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"To")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =true
+                        Update: =DataCardValue19.SelectedDate
+                        Width: =444
+                        X: =0
+                        Y: =2
                         ZIndex: =2
 
         hcn_ApplyLeave_Footer As groupContainer.horizontalAutoLayoutContainer:
