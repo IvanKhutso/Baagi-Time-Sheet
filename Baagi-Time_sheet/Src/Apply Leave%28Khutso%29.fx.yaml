@@ -154,14 +154,59 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                Form2 As form.PowerApps_CoreControls_Form:
+                efm_ApplyLeave_Form As form.PowerApps_CoreControls_Form:
                     DataSource: =Leave
+                    DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
                     LayoutMinWidth: =400
                     UseFluentV9Cards: =true
                     ZIndex: =1
 
-                    Days_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                    DataCard2 As typedDataCard.blankCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =200
+                        Width: =444
+                        X: =1
+                        Y: =2
+                        ZIndex: =1
+
+                        Icon3 As icon.Camera:
+                            Icon: =Icon.Camera
+                            OnSelect: |-
+                                =UpdateContext({capture:!capture})
+                            X: =188
+                            ZIndex: =1
+
+                        Camera3 As camera:
+                            Camera: =0
+                            Visible: =capture
+                            X: =44
+                            Y: =60
+                            ZIndex: =2
+
+                        Image1 As image:
+                            X: =40
+                            Y: =40
+                            ZIndex: =3
+
+                    crd_ApplyLeave_LeaveType As typedDataCard.fluentV9ComboBoxEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Leave_Type"
+                        Default: =ThisItem.Leave_Type
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Leave_Type")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue13.Selected
+                        Width: =444
+                        X: =0
+                        Y: =0
+                        ZIndex: =2
+
+                    crd_ApplyLeave_Days As typedDataCard.fluentV9TextualEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Num_Days"
                         Default: =ThisItem.Days
@@ -173,11 +218,41 @@
                         Required: =false
                         Update: =DataCardValue15.Value
                         Width: =444
+                        X: =1
+                        Y: =0
+                        ZIndex: =2
+
+                    crd_ApplyLeave_ApprovalStatus As typedDataCard.fluentV9ComboBoxEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Approval_Status"
+                        Default: =ThisItem.Approval_Status
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Approval_Status")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue16.Selected
+                        Width: =444
                         X: =2
                         Y: =0
                         ZIndex: =2
 
-                    "'Start Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                    crd_ApplyLeave_EmployeeNumber As typedDataCard.fluentV9ComboBoxEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Employee_Number"
+                        Default: =ThisItem.Employee_Number
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Employee_Number")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue17.Selected
+                        Width: =444
+                        X: =0
+                        Y: =1
+                        ZIndex: =2
+
+                    crd_ApplyLeave_Start_Date As typedDataCard.fluentV9DateEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="From"
                         Default: =ThisItem.'Start Date'
@@ -188,11 +263,11 @@
                         Required: =true
                         Update: =DataCardValue18.SelectedDate
                         Width: =444
-                        X: =2
+                        X: =1
                         Y: =1
                         ZIndex: =2
 
-                    "'End Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                    crd_ApplyLeave_EndDate As typedDataCard.fluentV9DateEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="To"
                         Default: =ThisItem.'End Date'
@@ -202,6 +277,21 @@
                         Height: =70
                         Required: =true
                         Update: =DataCardValue19.SelectedDate
+                        Width: =444
+                        X: =2
+                        Y: =1
+                        ZIndex: =2
+
+                    crd_ApplyLeave_Attachments As typedDataCard.attachmentsEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="{Attachments}"
+                        Default: =ThisItem.Attachments
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"{Attachments}")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue20.Attachments
                         Width: =444
                         X: =0
                         Y: =2
