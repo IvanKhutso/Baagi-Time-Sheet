@@ -63,46 +63,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue15"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_Days"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue15"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_Days.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_Days.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 6,
                   "charOffset": 15,
                   "snippet": {
@@ -118,13 +78,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "Value"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -165,83 +128,6 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue17"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue17"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.efm_ApplyLeave_Form.crd_ApplyLeave_EmployeeNumber"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -328,186 +214,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.DataSource"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.DataSource",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
                 }
               },
               "properties": {
-                "member": "DataSource",
+                "member": "AccessibleLabel",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 63,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Title\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3"
               }
             }
           ],
@@ -515,9 +234,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidDot",
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
         },
         {
@@ -525,79 +244,29 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.MaxLength"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.MaxLength",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
                 }
               },
               "properties": {
-                "member": "MaxLength",
+                "member": "TabIndex",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Timesheet"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 63,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet], DataSourceInfo.MaxLength, \"Title\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Title_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
         },
         {
@@ -605,146 +274,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.DisplayName"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.DisplayName",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
                 }
               },
               "properties": {
-                "member": "DisplayName",
+                "member": "AccessibleLabel",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 62,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Date\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Date"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Date_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
               }
             }
           ],
@@ -752,9 +294,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidDot",
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
         },
         {
@@ -762,79 +304,29 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.DisplayName"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.DisplayName",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
                 }
               },
               "properties": {
-                "member": "DisplayName",
+                "member": "TabIndex",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Timesheet"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 63,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Hours\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
         },
         {
@@ -842,66 +334,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.Default"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.Default",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
                 }
               },
               "properties": {
-                "member": "Default",
+                "member": "FocusedBorderThickness",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "ThisItem"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.Default"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1.Default",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Hours"
-                  }
                 }
               },
               "properties": {
-                "member": "Default",
+                "member": "TabIndex",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Hours_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
               }
             }
           ],
@@ -909,9 +384,39 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidDot",
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet(Silu)",
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
         },
         {
@@ -919,146 +424,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.DisplayName"
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.DisplayName",
+                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
                 }
               },
               "properties": {
-                "member": "DisplayName",
+                "member": "TabIndex",
                 "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 62,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Task\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Task"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
+                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
               }
             }
           ],
@@ -1066,1068 +444,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 62,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet], DataSourceInfo.MaxLength, \"Task\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Task_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 65,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"User_ID\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".User_ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 20,
-                  "snippet": {
-                    "text": ".User_ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 29,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices([@Timesheet].User_ID)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.User_ID_DataCard1.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 71,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Regular_Hours\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Regular_Hours"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Regular_Hours_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Approval_Status\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Approval_Status"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 20,
-                  "snippet": {
-                    "text": ".Approval_Status"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 37,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices([@Timesheet].Approval_Status)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Approval_Status_DataCard1.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,\"Employee_Number\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Employee_Number"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "Timesheet"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Timesheet"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 20,
-                  "snippet": {
-                    "text": ".Employee_Number"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 37,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices([@Timesheet].Employee_Number)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.MainSectionContainer1.Form1.Employee_Number_DataCard1.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
         },
         {
@@ -2158,7 +477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2188,7 +507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2218,7 +537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2248,7 +567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2278,7 +597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2308,7 +627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2338,7 +657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2368,7 +687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2398,7 +717,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2428,7 +747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2458,247 +777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Icon4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Label4_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet(Silu)",
-                "type": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.Rectangle3_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2728,7 +807,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2758,7 +837,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2788,7 +867,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2818,7 +897,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2848,7 +927,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2878,7 +957,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2908,7 +987,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2938,7 +1017,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2968,7 +1047,67 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.ButtonCanvas1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.ButtonCanvas1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.MainContainer1_2.ButtonCanvas1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.FooterContainer1_2.ButtonCanvas2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim(MGWENA)'.ScreenContainer1_2.FooterContainer1_2.ButtonCanvas2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim(MGWENA)",
+                "type": "'Travel Claim(MGWENA)'.ScreenContainer1_2.FooterContainer1_2.ButtonCanvas2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2998,7 +1137,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -3028,7 +1167,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -3048,34 +1187,6 @@
                 "howToFix": [
                   "Remove or correct the reference to the name that isn't valid."
                 ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
