@@ -2,7 +2,24 @@ MenuLeftNav As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
     MenuItems: |-
-        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+        =Table(
+            {
+                MenuLabel: "Time Sheet",
+                menuIcon: Icon.Clock,
+                MenuScreenNav: App.ActiveScreen,
+                MenuID: 1
+            },{
+                MenuLabel: "Apply Leave",
+                menuIcon: Icon.Leave,
+                MenuScreenNav: App.ActiveScreen,
+                MenuID: 2
+            },{
+                MenuLabel: "Travel Claim",
+                menuIcon: Icon.Cars,
+                MenuScreenNav: App.ActiveScreen,
+                MenuID: 3
+            }
+        )
     Width: =640
     X: =0
     Y: =0
@@ -25,10 +42,50 @@ MenuLeftNav As CanvasComponent:
     galMenu As gallery.variableTemplateHeightGallery:
         DelayItemLoading: =true
         Height: =Parent.Height-icoWaff_Menu.Height
-        Items: =CustomGallerySample
+        Items: =MenuLeftNav.MenuItems
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =280
         Y: =icoWaff_Menu.Height
         ZIndex: =2
+
+        rectShape As rectangle:
+            Height: =48
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.MenuScreenNav = App.ActiveScreen
+            Width: =6
+            ZIndex: =1
+
+        icoMenu As icon.Add:
+            Height: =48
+            Icon: =ThisItem.menuIcon
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            Width: =62
+            X: =6
+            ZIndex: =2
+
+        lblMenu As label:
+            FontWeight: =FontWeight.Lighter
+            Height: =48
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.MenuLabel
+            Width: =560
+            X: =68
+            Y: =4
+            ZIndex: =3
+
+        btnClick As button:
+            Fill: =Color.Transparent
+            Height: =lblMenu.Height+lblMenu.Y
+            HoverFill: =Color.Transparent
+            OnSelect: =Navigate(ThisItem.MenuScreenNav,ScreenTransition.Cover)
+            PressedFill: =Color.Transparent
+            Text: ="Button"
+            Width: =Parent.TemplateWidth
+            ZIndex: =4
 
