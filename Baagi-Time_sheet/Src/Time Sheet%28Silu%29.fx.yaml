@@ -36,7 +36,6 @@
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.Center
                 Color: =BaagiMidBlue
-                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)

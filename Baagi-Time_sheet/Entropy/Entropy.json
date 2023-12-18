@@ -1,6 +1,5 @@
 {
   "ComponentIndexes": {
-    "Component1": 4,
     "MenuLeftNav": 3
   },
   "ControlUniqueGuids": {},
@@ -16,7 +15,6 @@
     "ButtonCanvas1": 131,
     "Camera3": 38,
     "Claim Date_DataCard1": 106,
-    "Component1": 135,
     "crd_ApplyLeave_ApprovalStatus": 30,
     "crd_ApplyLeave_Attachments": 34,
     "crd_ApplyLeave_Days": 29,
@@ -142,7 +140,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/18/2023 21:05:26",
+  "HeaderLastSavedDateTimeUTC": "12/18/2023 21:08:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1259527a-10b0-4542-9098-e0fe125b7c5a": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/5f00804ec9f14059a1134d336cb52e46\"",
@@ -156,12 +154,10 @@
     "baagi_technology logo": "https://docserverpwaprodweu.blob.core.windows.net/11582935-6dd0-49eb-bcaf-5b6c91898a91-1/resource/Assets0Images00001.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-18T20%3A39%3A54Z&ske=2023-12-19T20%3A54%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-19T20%3A54%3A54Z&sr=b&sp=r&sig=GtHhreSYdPxLSe1T5VlXDg3WDOuwykjis3JJToIxih4%3D"
   },
   "OrderComponentMetadata": {
-    "84f24ad883934fdb80e91681f6ca92e3": 0,
-    "eeb4df05c45f4ceb99166dc777ee304c": 1
+    "84f24ad883934fdb80e91681f6ca92e3": 0
   },
   "OrderComponentTemplate": {
-    "84f24ad883934fdb80e91681f6ca92e3": 0,
-    "eeb4df05c45f4ceb99166dc777ee304c": 1
+    "84f24ad883934fdb80e91681f6ca92e3": 0
   },
   "OrderDataSource": {
     "coltabs": 7,
@@ -205,7 +201,6 @@
     "ButtonCanvas1": {},
     "Camera3": {},
     "Claim Date_DataCard1": {},
-    "Component1": {},
     "crd_ApplyLeave_ApprovalStatus": {},
     "crd_ApplyLeave_Attachments": {},
     "crd_ApplyLeave_Days": {},
@@ -918,7 +913,6 @@
     "ButtonCanvas1": 116,
     "Camera3": 42,
     "Claim Date_DataCard1": 91,
-    "Component1": 0,
     "crd_ApplyLeave_ApprovalStatus": 34,
     "crd_ApplyLeave_Attachments": 38,
     "crd_ApplyLeave_Days": 33,
