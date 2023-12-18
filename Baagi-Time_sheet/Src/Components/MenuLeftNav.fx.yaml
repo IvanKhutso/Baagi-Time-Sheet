@@ -1,4 +1,5 @@
 MenuLeftNav As CanvasComponent:
+    ExpandMenu: =false
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
     MenuItems: |-
@@ -20,6 +21,7 @@ MenuLeftNav As CanvasComponent:
                 MenuID: 3
             }
         )
+    OnReset: =Set(showMenu, MenuLeftNav.ExpandMenu)
     Width: =640
     X: =0
     Y: =0
