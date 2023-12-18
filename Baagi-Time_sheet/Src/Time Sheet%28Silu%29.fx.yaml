@@ -36,14 +36,15 @@
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.Center
                 Color: =BaagiMidBlue
+                FillPortions: =1
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
+                    =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,"        Time Sheet ", ScreenSize.Medium, "😄Time Sheet⌛", "😄Time Sheet⌛")
                     
                     //gallTabs_3.Selected.Name
-                ZIndex: =2
+                ZIndex: =1
 
             lblWelcome As label:
                 Color: =BaagiMidBlue
@@ -51,8 +52,8 @@
                 Height: =75
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
-                Visible: ='Time Sheet(Silu)'.Size<>ScreenSize.Small && 'Time Sheet(Silu)'.Size<>ScreenSize.Medium
-                ZIndex: =3
+                Visible: ='Time Sheet(Silu)'.Size<>ScreenSize.Small 
+                ZIndex: =2
 
             Image3 As image:
                 Height: =75
@@ -63,7 +64,7 @@
                 RadiusTopLeft: =75
                 RadiusTopRight: =75
                 Width: =75
-                ZIndex: =4
+                ZIndex: =3
 
         MainContainer1 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
@@ -189,4 +190,12 @@
                 RadiusTopLeft: =10
                 RadiusTopRight: =10
                 ZIndex: =2
+
+    MenuLeftNav_1 As MenuLeftNav:
+        MenuWidth: =If(showMenu,MenuLeftNav_1.SetMenuWidth,icoWaff_Menu.Width)
+        OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
+        Width: =MenuLeftNav_1.MenuWidth
+        X: =17
+        Y: =24
+        ZIndex: =2
 
