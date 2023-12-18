@@ -74,7 +74,6 @@ MenuLeftNav As CanvasComponent:
 
         lblMenu As label:
             Color: =MenuLeftNav.MenuColor
-            FontWeight: =FontWeight.Lighter
             Height: =48
             OnSelect: =Select(Parent)
             Size: =14
