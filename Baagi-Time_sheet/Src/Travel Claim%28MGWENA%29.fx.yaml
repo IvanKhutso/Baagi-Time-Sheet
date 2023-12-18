@@ -180,8 +180,10 @@
 
                         DataCardKey7 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -195,7 +197,9 @@
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -246,8 +250,10 @@
 
                         DataCardKey19 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -261,7 +267,9 @@
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -312,8 +320,10 @@
 
                         DataCardKey15 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -326,7 +336,9 @@
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -376,8 +388,10 @@
 
                         DataCardKey9 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -390,7 +404,9 @@
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -440,8 +456,10 @@
 
                         DataCardKey12 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -454,7 +472,9 @@
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -504,8 +524,10 @@
 
                         DataCardKey13 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -518,7 +540,9 @@
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -568,8 +592,10 @@
 
                         DataCardKey14 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -583,7 +609,9 @@
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -635,8 +663,10 @@
 
                         DataCardKey17 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -649,7 +679,9 @@
                             AccessibleLabel: =Parent.DisplayName
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -702,8 +734,10 @@
 
                         DataCardKey20 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -716,7 +750,9 @@
                             AccessibleLabel: =Parent.DisplayName
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -769,8 +805,10 @@
 
                         DataCardKey21 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            Font: =Font.Georgia
                             FontColor: =
                             Height: =22
+                            Size: =16
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
                             Width: =Parent.Width - 48
@@ -783,7 +821,9 @@
                             AccessibleLabel: =Parent.DisplayName
                             BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             FontColor: =
+                            FontSize: =16
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -835,7 +875,9 @@
 
                         DataCardKey22 As label:
                             AutoHeight: =true
+                            Font: =Font.Georgia
                             Height: =34
+                            Size: =16
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -846,12 +888,14 @@
                         DataCardValue21 As attachments:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             DisplayMode: =Parent.DisplayMode
+                            Font: =Font.Georgia
                             IsInDataCard: =true
                             Items: =Parent.Default
                             PaddingBottom: =5
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PaddingRight: =5
                             PaddingTop: =5
+                            Size: =16
                             Tooltip: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             X: =30
