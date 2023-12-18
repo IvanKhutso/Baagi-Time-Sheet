@@ -41,7 +41,7 @@
                 Height: =75
                 Size: =Switch('Apply Leave(Khutso)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Apply Leave(Khutso)'.Size ,ScreenSize.Small,"⌛Sheet & 😄Leave.", ScreenSize.Medium, "⌛Sheet & 😄Leave.", "⌛Time Sheet & 😄Leave.")
+                    =Switch('Time Sheet(Silu)'.Size ,ScreenSize.Small,"        Leave🕺 ", ScreenSize.Medium, "Apply Leave🕺", "Apply Leave🕺")
                     
                     //gallTabs_1.Selected.Name
                 ZIndex: =2
