@@ -2,6 +2,7 @@ MenuLeftNav As CanvasComponent:
     ExpandMenu: =false
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
+    MenuColor: =RGBA(0, 0, 0, 1)
     MenuItems: |-
         =Table(
             {
