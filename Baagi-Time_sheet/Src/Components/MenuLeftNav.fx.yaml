@@ -2,6 +2,7 @@ MenuLeftNav As CanvasComponent:
     ExpandMenu: =false
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
+    MenuBkgColor: =BaagiLighterGray
     MenuColor: =BaagiMidBlue
     MenuItems: |-
         =Table(
@@ -40,6 +41,7 @@ MenuLeftNav As CanvasComponent:
 
     galMenu As gallery.variableTemplateHeightGallery:
         DelayItemLoading: =true
+        Fill: =MenuLeftNav.MenuBkgColor
         Height: =Parent.Height-icoWaff_Menu.Height
         Items: =MenuLeftNav.MenuItems
         Layout: =Layout.Vertical

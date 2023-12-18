@@ -64,6 +64,15 @@ App As appinfo:
                 1
             )
         );
+        Set(
+            BaagiLighterGray,
+            RGBA(
+                220,
+                220,
+                220,
+                1
+            )
+        );
         ClearCollect(
             coltabs,
             {
@@ -71,7 +80,6 @@ App As appinfo:
                 Name: "Time Sheet",
                 Logo: Icon.Clock,
                 Screen: 'Time Sheet(Silu)'
-                
             },
             {
                 ID: 2,
@@ -89,7 +97,6 @@ App As appinfo:
                 ID: 4,
                 Name: "Leave Status",
                 Logo: Icon.Information
-                
             }
         );
         Set(

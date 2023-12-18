@@ -1759,17 +1759,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.BaagiFontMor"
+                  "fullyQualifiedName": "App.BaagiGrey"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.BaagiFontMor",
+                  "fullyQualifiedName": "App.BaagiGrey",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "BaagiFontMor",
+                "member": "BaagiGrey",
                 "module": "App",
                 "type": "App"
               }
@@ -1789,17 +1789,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.BaagiGrey"
+                  "fullyQualifiedName": "App.BaagiFontMor"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.BaagiGrey",
+                  "fullyQualifiedName": "App.BaagiFontMor",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "BaagiGrey",
+                "member": "BaagiFontMor",
                 "module": "App",
                 "type": "App"
               }
