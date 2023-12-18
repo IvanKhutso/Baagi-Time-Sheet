@@ -163,68 +163,6 @@
                     UseFluentV9Cards: =true
                     ZIndex: =1
 
-                    Martin As typedDataCard.fluentV9TextualEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Title"
-                        Default: =ThisItem.Title
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"Title")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        MaxLength: =DataSourceInfo([@Travel], DataSourceInfo.MaxLength, "Title")
-                        Required: =false
-                        Update: =DataCardValue2.Value
-                        Width: =667
-                        X: =0
-                        Y: =0
-                        ZIndex: =2
-
-                        DataCardKey6 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue2 As 'Text input'":
-                            AccessibleLabel: =Parent.DisplayName
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                            Required: =Parent.Required
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey6.Y + DataCardKey6.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage2 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue2.Y + DataCardValue2.Height
-                            ZIndex: =3
-
-                        StarVisible6 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey6.Y
-                            ZIndex: =4
-
                     "'Travel Date From_DataCard1' As typedDataCard.fluentV9DateEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Travel_Date"
@@ -236,12 +174,13 @@
                         Required: =false
                         Update: =DataCardValue6.SelectedDate
                         Width: =667
-                        X: =1
+                        X: =0
                         Y: =0
                         ZIndex: =2
 
                         DataCardKey7 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -253,8 +192,10 @@
 
                         "DataCardValue6 As 'Date picker'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            FontColor: =
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -266,6 +207,7 @@
 
                         ErrorMessage6 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -278,12 +220,143 @@
                         StarVisible7 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                             Width: =30
                             X: =0
                             Y: =DataCardKey7.Y
+                            ZIndex: =4
+
+                    "'Trave Date To_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Trave_Date_To"
+                        Default: =ThisItem.'Trave Date To'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"Trave_Date_To")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue18.SelectedDate
+                        Width: =667
+                        X: =1
+                        Y: =0
+                        ZIndex: =2
+
+                        DataCardKey19 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue18 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            FontColor: =
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartYear: =1900
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey19.Y + DataCardKey19.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage18 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue18.Y + DataCardValue18.Height
+                            ZIndex: =3
+
+                        StarVisible19 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey19.Y
+                            ZIndex: =4
+
+                    "'Travel Rate Per Km_DataCard1' As typedDataCard.fluentV9NumberEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="TravelRate_Km"
+                        Default: =ThisItem.'Travel Rate Per Km'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"TravelRate_Km")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =Value(DataCardValue14.Value)
+                        Width: =667
+                        X: =0
+                        Y: =1
+                        ZIndex: =2
+
+                        DataCardKey15 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue14 As 'Text input'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
+                            DisplayMode: =Parent.DisplayMode
+                            FontColor: =
+                            Height: =32
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey15.Y + DataCardKey15.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage14 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue14.Y + DataCardValue14.Height
+                            ZIndex: =3
+
+                        StarVisible15 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey15.Y
                             ZIndex: =4
 
                     "'Number Nights_DataCard1' As typedDataCard.fluentV9NumberEditCard":
@@ -297,12 +370,13 @@
                         Required: =false
                         Update: =Value(DataCardValue7.Value)
                         Width: =667
-                        X: =0
+                        X: =1
                         Y: =1
                         ZIndex: =2
 
                         DataCardKey9 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -314,7 +388,9 @@
 
                         "DataCardValue7 As 'Text input'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -325,6 +401,7 @@
 
                         ErrorMessage7 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -337,6 +414,7 @@
                         StarVisible9 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -356,12 +434,13 @@
                         Required: =false
                         Update: =Value(DataCardValue9.Value)
                         Width: =667
-                        X: =1
-                        Y: =1
+                        X: =0
+                        Y: =2
                         ZIndex: =2
 
                         DataCardKey12 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -373,7 +452,9 @@
 
                         "DataCardValue9 As 'Text input'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -384,6 +465,7 @@
 
                         ErrorMessage9 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -396,6 +478,7 @@
                         StarVisible12 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -415,12 +498,13 @@
                         Required: =false
                         Update: =Value(DataCardValue12.Value)
                         Width: =667
-                        X: =0
+                        X: =1
                         Y: =2
                         ZIndex: =2
 
                         DataCardKey13 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -432,7 +516,9 @@
 
                         "DataCardValue12 As 'Text input'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Value: =Parent.Default
@@ -443,6 +529,7 @@
 
                         ErrorMessage12 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -455,6 +542,7 @@
                         StarVisible13 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -474,12 +562,13 @@
                         Required: =false
                         Update: =DataCardValue13.SelectedDate
                         Width: =667
-                        X: =1
-                        Y: =2
+                        X: =0
+                        Y: =3
                         ZIndex: =2
 
                         DataCardKey14 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -491,8 +580,10 @@
 
                         "DataCardValue13 As 'Date picker'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            FontColor: =
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -504,6 +595,7 @@
 
                         ErrorMessage13 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -516,130 +608,13 @@
                         StarVisible14 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                             Width: =30
                             X: =0
                             Y: =DataCardKey14.Y
-                            ZIndex: =4
-
-                    "'Travel Rate Per Km_DataCard1' As typedDataCard.fluentV9NumberEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="TravelRate_Km"
-                        Default: =ThisItem.'Travel Rate Per Km'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"TravelRate_Km")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =Value(DataCardValue14.Value)
-                        Width: =667
-                        X: =0
-                        Y: =3
-                        ZIndex: =2
-
-                        DataCardKey15 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue14 As 'Text input'":
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey15.Y + DataCardKey15.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage14 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue14.Y + DataCardValue14.Height
-                            ZIndex: =3
-
-                        StarVisible15 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey15.Y
-                            ZIndex: =4
-
-                    "'Approval Status_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Approval_Status"
-                        Default: =ThisItem.'Approval Status'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"Approval_Status")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =DataCardValue15.Selected
-                        Width: =667
-                        X: =1
-                        Y: =3
-                        ZIndex: =2
-
-                        DataCardKey16 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue15 As Combobox.pcfdataset:
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            Items: =Choices([@Travel].Approval_Status)
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey16.Y + DataCardKey16.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage15 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue15.Y + DataCardValue15.Height
-                            ZIndex: =3
-
-                        StarVisible16 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =20
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey16.Y
                             ZIndex: =4
 
                     Travel_Reason_DataCard1 As typedDataCard.fluentV9TextualEditCard:
@@ -654,12 +629,13 @@
                         Required: =false
                         Update: =DataCardValue16.Value
                         Width: =667
-                        X: =0
-                        Y: =4
+                        X: =1
+                        Y: =3
                         ZIndex: =2
 
                         DataCardKey17 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -671,7 +647,9 @@
 
                         "DataCardValue16 As 'Text input'":
                             AccessibleLabel: =Parent.DisplayName
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -684,6 +662,7 @@
 
                         ErrorMessage16 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -696,132 +675,13 @@
                         StarVisible17 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                             Width: =30
                             X: =0
                             Y: =DataCardKey17.Y
-                            ZIndex: =4
-
-                    "'Employee Number_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Employee_Number"
-                        Default: =ThisItem.'Employee Number'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"Employee_Number")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =DataCardValue17.Selected
-                        Width: =667
-                        X: =1
-                        Y: =4
-                        ZIndex: =2
-
-                        DataCardKey18 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue17 As Combobox.pcfdataset:
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            Height: =32
-                            Items: =Choices([@Travel].Employee_Number)
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey18.Y + DataCardKey18.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage17 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue17.Y + DataCardValue17.Height
-                            ZIndex: =3
-
-                        StarVisible18 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =20
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey18.Y
-                            ZIndex: =4
-
-                    "'Trave Date To_DataCard1' As typedDataCard.fluentV9DateEditCard":
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Trave_Date_To"
-                        Default: =ThisItem.'Trave Date To'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Travel],DataSourceInfo.DisplayName,"Trave_Date_To")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =70
-                        Required: =false
-                        Update: =DataCardValue18.SelectedDate
-                        Width: =667
-                        X: =0
-                        Y: =5
-                        ZIndex: =2
-
-                        DataCardKey19 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue18 As 'Date picker'":
-                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                            DisplayMode: =Parent.DisplayMode
-                            EndYear: =Year(Today())+100
-                            Height: =32
-                            SelectedDate: =Parent.Default
-                            StartYear: =1900
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey19.Y + DataCardKey19.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage18 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue18.Y + DataCardValue18.Height
-                            ZIndex: =3
-
-                        StarVisible19 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey19.Y
                             ZIndex: =4
 
                     "'Location From_DataCard1' As typedDataCard.fluentV9TextualEditCard":
@@ -836,12 +696,13 @@
                         Required: =false
                         Update: =DataCardValue19.Value
                         Width: =667
-                        X: =1
-                        Y: =5
+                        X: =0
+                        Y: =4
                         ZIndex: =2
 
                         DataCardKey20 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -853,7 +714,9 @@
 
                         "DataCardValue19 As 'Text input'":
                             AccessibleLabel: =Parent.DisplayName
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -866,6 +729,7 @@
 
                         ErrorMessage19 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -878,6 +742,7 @@
                         StarVisible20 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -898,12 +763,13 @@
                         Required: =false
                         Update: =DataCardValue20.Value
                         Width: =667
-                        X: =0
-                        Y: =6
+                        X: =1
+                        Y: =4
                         ZIndex: =2
 
                         DataCardKey21 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -915,7 +781,9 @@
 
                         "DataCardValue20 As 'Text input'":
                             AccessibleLabel: =Parent.DisplayName
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =32
                             Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                             Required: =Parent.Required
@@ -928,6 +796,7 @@
 
                         ErrorMessage20 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -940,6 +809,7 @@
                         StarVisible21 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -959,8 +829,8 @@
                         Required: =false
                         Update: =DataCardValue21.Attachments
                         Width: =667
-                        X: =1
-                        Y: =6
+                        X: =0
+                        Y: =5
                         ZIndex: =2
 
                         DataCardKey22 As label:
@@ -1014,8 +884,13 @@
                             ZIndex: =4
 
             ButtonCanvas1 As Button:
-                AlignInContainer: =AlignInContainer.End
+                AlignInContainer: =AlignInContainer.Stretch
+                BasePaletteColor: =
                 DisplayMode: =DisplayMode.Edit
+                Font: =Font.Georgia
+                FontColor: =
+                FontSize: =22
+                FontWeight: =FontWeight.Semibold
                 Height: =32
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
@@ -1024,9 +899,20 @@
                                   Travel,
                                   Defaults(Travel),
                                   {
-                                      'Number Nights': Value(DataCardValue7.Value)
+                                      'Number Nights': Value(DataCardValue7.Value),
+                                      'Additional Costs':Value(DataCardValue12.Value),
+                                      'Km Travelled':Value(DataCardValue9.Value),
+                                      'Claim Date':Value(DataCardValue13.SelectedDate),
+                                      'Travel Date From':Value(DataCardValue6.SelectedDate),
+                                      'Trave Date To':Value(DataCardValue18.SelectedDate)
+                    
+                                      //Attachments:DataCardValue21.Attachments
+                                      
+                                      //'Location From':DataCardValue19.Text
+                                      
                                   }
                               )
+                Text: ="Submit"
                 Width: =96
                 X: =0
                 Y: =0
@@ -1069,21 +955,4 @@
                 RadiusTopLeft: =10
                 RadiusTopRight: =10
                 ZIndex: =2
-
-            ButtonCanvas2 As Button:
-                DisplayMode: =DisplayMode.Edit
-                Height: =32
-                LayoutMinHeight: =32
-                LayoutMinWidth: =96
-                OnSelect: |
-                    =Patch(
-                                  Travel,
-                                  {
-                                      'Number Nights': Value(DataCardValue7.Value)
-                                  }
-                              )
-                Width: =96
-                X: =0
-                Y: =0
-                ZIndex: =3
 
