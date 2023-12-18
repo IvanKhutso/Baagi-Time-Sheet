@@ -23,9 +23,11 @@ MenuLeftNav As CanvasComponent:
                 MenuID: 3
             }
         )
+    MenuWidth: =If(showMenu,MenuLeftNav.SetMenuWidth,icoWaff_Menu.Width)
     OnReset: =Set(showMenu, MenuLeftNav.ExpandMenu)
+    SetMenuWidth: =200
     WaffMenuColor: =BaagiMidBlue
-    Width: =640
+    Width: =MenuLeftNav.MenuWidth
     X: =0
     Y: =0
     ZIndex: =1
@@ -48,6 +50,7 @@ MenuLeftNav As CanvasComponent:
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =280
         Visible: =showMenu
+        Width: =200
         Y: =icoWaff_Menu.Height
         ZIndex: =2
 
