@@ -1,0 +1,34 @@
+MenuLeftNav As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    MenuItems: |-
+        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    icoWaff_Menu As icon.Waffle:
+        Color: |-
+            = RGBA(
+                    25,
+                    25,
+                    112,
+                    1
+                )
+        Icon: =Icon.Waffle
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        ZIndex: =1
+
+    galMenu As gallery.variableTemplateHeightGallery:
+        DelayItemLoading: =true
+        Height: =Parent.Height-icoWaff_Menu.Height
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =280
+        Y: =icoWaff_Menu.Height
+        ZIndex: =2
+
