@@ -2,7 +2,7 @@ MenuLeftNav As CanvasComponent:
     ExpandMenu: =false
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
-    MenuColor: =RGBA(0, 0, 0, 1)
+    MenuColor: =BaagiMidBlue
     MenuItems: |-
         =Table(
             {
@@ -23,19 +23,14 @@ MenuLeftNav As CanvasComponent:
             }
         )
     OnReset: =Set(showMenu, MenuLeftNav.ExpandMenu)
+    WaffMenuColor: =BaagiMidBlue
     Width: =640
     X: =0
     Y: =0
     ZIndex: =1
 
     icoWaff_Menu As icon.Waffle:
-        Color: |-
-            = RGBA(
-                    25,
-                    25,
-                    112,
-                    1
-                )
+        Color: =MenuLeftNav.WaffMenuColor
         Icon: =Icon.Waffle
         OnSelect: =Set(showMenu, !showMenu)
         PaddingLeft: =5
@@ -55,6 +50,7 @@ MenuLeftNav As CanvasComponent:
         ZIndex: =2
 
         rectShape As rectangle:
+            Fill: =MenuLeftNav.MenuColor
             Height: =48
             OnSelect: =Select(Parent)
             Visible: =ThisItem.MenuScreenNav = App.ActiveScreen
@@ -62,6 +58,7 @@ MenuLeftNav As CanvasComponent:
             ZIndex: =1
 
         icoMenu As icon.Add:
+            Color: =MenuLeftNav.MenuColor
             Height: =48
             Icon: =ThisItem.menuIcon
             OnSelect: =Select(Parent)
@@ -74,6 +71,7 @@ MenuLeftNav As CanvasComponent:
             ZIndex: =2
 
         lblMenu As label:
+            Color: =MenuLeftNav.MenuColor
             FontWeight: =FontWeight.Lighter
             Height: =48
             OnSelect: =Select(Parent)

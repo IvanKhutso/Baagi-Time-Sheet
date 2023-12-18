@@ -38,6 +38,15 @@
       "PropertyDataTypeKey": "Color",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.336\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "WaffMenuColor",
+      "Hidden": false,
+      "Name": "WaffMenuColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.336\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -48,7 +57,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638385043337740252",
+  "LastModifiedTimestamp": "638385184567496902",
   "Name": "84f24ad883934fdb80e91681f6ca92e3",
   "OverridableProperties": {},
   "Version": "1.0"
