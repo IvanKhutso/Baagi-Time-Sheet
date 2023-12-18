@@ -51,7 +51,7 @@
                 Height: =75
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
-                Visible: ='Travel Claim(MGWENA)'.Size<>ScreenSize.Small && 'Travel Claim(MGWENA)'.Size<>ScreenSize.Medium
+                Visible: ='Travel Claim(MGWENA)'.Size<>ScreenSize.Small 
                 ZIndex: =3
 
             Image3_2 As image:

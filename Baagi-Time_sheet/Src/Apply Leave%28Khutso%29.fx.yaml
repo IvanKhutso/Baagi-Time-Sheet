@@ -52,7 +52,7 @@
                 Height: =75
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
-                Visible: ='Apply Leave(Khutso)'.Size<>ScreenSize.Small && 'Apply Leave(Khutso)'.Size<>ScreenSize.Medium
+                Visible: ='Apply Leave(Khutso)'.Size<>ScreenSize.Small 
                 ZIndex: =3
 
             img_ApplyLeave_User As image:

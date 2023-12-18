@@ -25,6 +25,9 @@
           "Leave": {
             "tableName": "c6f95def-7336-47aa-9eb4-982ab17d0beb"
           },
+          "Timesheet": {
+            "tableName": "901078fe-479a-4444-b482-45356fb04dcc"
+          },
           "Travel_1": {
             "tableName": "86d1d017-a810-466f-a2d7-c2097e597c43"
           },
@@ -37,7 +40,8 @@
     "dataSources": [
       "Leave",
       "Travel_1",
-      "Travel_2"
+      "Travel_2",
+      "Timesheet"
     ],
     "dependencies": {},
     "dependents": [],
