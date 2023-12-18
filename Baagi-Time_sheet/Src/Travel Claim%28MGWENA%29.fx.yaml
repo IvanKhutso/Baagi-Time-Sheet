@@ -948,11 +948,13 @@
                                       'Km Travelled':Value(DataCardValue9.Value),
                                       'Claim Date':Value(DataCardValue13.SelectedDate),
                                       'Travel Date From':Value(DataCardValue6.SelectedDate),
-                                      'Trave Date To':Value(DataCardValue18.SelectedDate)
+                                      'Trave Date To':Value(DataCardValue18.SelectedDate),
                     
                                       //Attachments:DataCardValue21.Attachments
                                       
-                                      //'Location From':DataCardValue19.Text
+                                      'Location From':DataCardValue19.Value,
+                                      'Location To': DataCardValue20.Value,
+                                      'Travel_Reason':DataCardValue16.Value
                                       
                                   }
                               )
