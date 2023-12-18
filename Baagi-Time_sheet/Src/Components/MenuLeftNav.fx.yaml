@@ -49,6 +49,7 @@ MenuLeftNav As CanvasComponent:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =280
+        Visible: =showMenu
         Y: =icoWaff_Menu.Height
         ZIndex: =2
 
