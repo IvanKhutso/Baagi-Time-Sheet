@@ -1,4 +1,5 @@
 "'Time Sheet(Silu)' As screen.'autoLayout_HeaderFooter_ver1.0'":
+    OnVisible: =Set(varShowMenu,true);Set(varShowMenu,false);
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
