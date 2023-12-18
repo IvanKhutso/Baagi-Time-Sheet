@@ -96,7 +96,7 @@
                     OnSelect: =Set(varTabSelected,ThisItem.ID)
                     ShowScrollbar: =false
                     TemplateFill: |+
-                        =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), BaagiWhiteSmoke)
+                        =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0), RGBA(0, 0, 0, 0))
                         
                     TemplatePadding: =0
                     TemplateSize: =Parent.Height

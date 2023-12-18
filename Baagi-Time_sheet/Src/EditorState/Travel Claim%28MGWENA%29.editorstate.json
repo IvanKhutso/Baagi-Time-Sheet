@@ -9618,7 +9618,7 @@
       "MetaDataIDKey": "",
       "Name": "MenuLeftNav_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10051,7 +10051,7 @@
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "ScreenContainer1_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
