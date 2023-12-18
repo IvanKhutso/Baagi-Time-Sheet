@@ -1,63 +1,35 @@
 {
-  "Name": "PowerApps_CoreControls_ComboboxCanvas",
+  "Name": "PowerApps_CoreControls_ButtonCanvas",
   "PcfConversions": [
     {
       "Action": [
         {
-          "Name": "IsSearchable",
-          "Type": "add"
-        },
-        {
-          "Name": "InputTextPlaceholder",
-          "Type": "add"
-        }
-      ],
-      "From": "0.0.4",
-      "To": "0.0.5"
-    },
-    {
-      "Action": [
-        {
-          "Name": "SearchText",
-          "Type": "add"
-        }
-      ],
-      "From": "0.0.6",
-      "To": "0.0.7"
-    },
-    {
-      "Action": [
-        {
-          "Name": "OnSelect",
+          "Name": "OnChange",
           "Type": "remove"
         }
       ],
-      "From": "0.0.9",
-      "To": "0.0.10"
+      "From": "0.0.13",
+      "To": "0.0.14"
     },
     {
       "Action": [
         {
           "Name": "BasePaletteColor",
           "Type": "add"
-        },
+        }
+      ],
+      "From": "0.0.17",
+      "To": "0.0.18"
+    },
+    {
+      "Action": [
         {
           "Name": "FontSize",
           "Type": "add"
         }
       ],
-      "From": "0.0.14",
-      "To": "0.0.15"
-    },
-    {
-      "Action": [
-        {
-          "Name": "ValidationState",
-          "Type": "add"
-        }
-      ],
-      "From": "0.0.16",
-      "To": "0.0.17"
+      "From": "0.0.20",
+      "To": "0.0.21"
     },
     {
       "Action": [
@@ -86,9 +58,9 @@
           "Type": "add"
         }
       ],
-      "From": "0.0.20",
-      "To": "0.0.21"
+      "From": "0.0.25",
+      "To": "0.0.26"
     }
   ],
-  "Version": "0.0.24"
+  "Version": "0.0.27"
 }

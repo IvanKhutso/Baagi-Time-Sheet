@@ -34,6 +34,7 @@ MenuLeftNav As CanvasComponent:
                     1
                 )
         Icon: =Icon.Waffle
+        OnSelect: =Set(showMenu, !showMenu)
         PaddingLeft: =5
         PaddingRight: =5
         PaddingTop: =5
@@ -85,7 +86,7 @@ MenuLeftNav As CanvasComponent:
             HoverFill: =Color.Transparent
             OnSelect: =Navigate(ThisItem.MenuScreenNav,ScreenTransition.Cover)
             PressedFill: =Color.Transparent
-            Text: ="Button"
+            Text: =""
             Width: =Parent.TemplateWidth
             ZIndex: =4
 
