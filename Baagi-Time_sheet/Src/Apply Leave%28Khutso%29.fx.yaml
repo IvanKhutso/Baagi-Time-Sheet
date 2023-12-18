@@ -336,3 +336,9 @@
                 RadiusTopRight: =10
                 ZIndex: =2
 
+    MenuLeftNav_2 As MenuLeftNav:
+        Width: =MenuLeftNav_2.MenuWidth
+        X: =17
+        Y: =24
+        ZIndex: =2
+

@@ -36,12 +36,11 @@
                 Align: =Align.Center
                 Color: =BaagiMidBlue
                 FillPortions: =1
-                Font: =Font.Georgia
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"Travel Claim", ScreenSize.Medium, "Travel Claim", "Travel Claim")
+                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"Travel Claim", ScreenSize.Medium, "Travel Claim🚗", "Travel Claim🚗")
                     
                     //gallTabs_2.Selected.Name
                 ZIndex: =2
