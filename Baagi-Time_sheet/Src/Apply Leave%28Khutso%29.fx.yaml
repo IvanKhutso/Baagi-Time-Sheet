@@ -337,6 +337,9 @@
                 ZIndex: =2
 
     MenuLeftNav_2 As MenuLeftNav:
+        Height: =257
+        MenuBkgColor: =BaagiWhiteSmoke
+        MenuItems: =colMenu
         Width: =MenuLeftNav_2.MenuWidth
         X: =17
         Y: =24

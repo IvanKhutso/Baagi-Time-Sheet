@@ -5704,7 +5704,14 @@
         "X",
         "Y",
         "ZIndex",
-        "MenuItems",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table(\n    {\n        MenuLabel: \"Time Sheet\",\n        menuIcon: Icon.Clock,\n        MenuScreenNav: App.ActiveScreen,\n        MenuID: 1\n    },{\n        MenuLabel: \"Apply Leave\",\n        menuIcon: Icon.Leave,\n        MenuScreenNav: App.ActiveScreen,\n        MenuID: 2\n    },{\n        MenuLabel: \"Travel Claim\",\n        menuIcon: Icon.Cars,\n        MenuScreenNav: App.ActiveScreen,\n        MenuID: 3\n    }\n)",
+          "InvariantPropertyName": "MenuItems",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -5778,13 +5785,13 @@
       "MetaDataIDKey": "",
       "Name": "MenuLeftNav_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
           "PropertyName": "MenuItems",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
@@ -5804,7 +5811,7 @@
         {
           "Category": "Data",
           "PropertyName": "MenuBkgColor",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
@@ -6063,7 +6070,7 @@
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "vcn_ApplyLeave_Main",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -40,7 +40,7 @@
                 Height: =75
                 Size: =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"Travel Claim", ScreenSize.Medium, "Travel Claim🚗", "Travel Claim🚗")
+                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"        Travel Claim", ScreenSize.Medium, "Travel Claim🚗", "Travel Claim🚗")
                     
                     //gallTabs_2.Selected.Name
                 ZIndex: =2
@@ -1000,4 +1000,13 @@
                 RadiusTopLeft: =10
                 RadiusTopRight: =10
                 ZIndex: =2
+
+    MenuLeftNav_3 As MenuLeftNav:
+        Height: =257
+        MenuBkgColor: =BaagiWhiteSmoke
+        MenuItems: =colMenu
+        Width: =MenuLeftNav_3.MenuWidth
+        X: =17
+        Y: =24
+        ZIndex: =2
 

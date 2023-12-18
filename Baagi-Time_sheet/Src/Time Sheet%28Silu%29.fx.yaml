@@ -192,6 +192,9 @@
                 ZIndex: =2
 
     MenuLeftNav_1 As MenuLeftNav:
+        Height: =257
+        MenuBkgColor: =BaagiWhiteSmoke
+        MenuItems: =colMenu
         MenuWidth: =If(showMenu,MenuLeftNav_1.SetMenuWidth,icoWaff_Menu.Width)
         OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
         Width: =MenuLeftNav_1.MenuWidth
