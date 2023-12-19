@@ -162,6 +162,72 @@
                     UseFluentV9Cards: =true
                     ZIndex: =1
 
+                    Task_DataCard4 As typedDataCard.fluentV9TextualMultiLineEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Task"
+                        Default: =ThisItem.Task
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Task")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =166
+                        Required: =false
+                        Update: =DataCardValue56.Value
+                        Width: =667
+                        X: =0
+                        Y: =3
+                        ZIndex: =1
+
+                        DataCardKey56 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue56 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            BasePaletteColor: =
+                            DisplayMode: =Parent.DisplayMode
+                            FontColor: =
+                            Height: =144
+                            Mode: ='TextInputCanvas.Mode'.Multiline
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey56.Y + DataCardKey56.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage56 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue56.Y + DataCardValue56.Height
+                            ZIndex: =3
+
+                        StarVisible56 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            FontColor: =
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey56.Y
+                            ZIndex: =4
+
                     "'Employee Email_DataCard1' As typedDataCard.fluentV9TextualEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="EmployeeEmail"
@@ -399,72 +465,6 @@
                             Width: =30
                             X: =0
                             Y: =DataCardKey4.Y
-                            ZIndex: =4
-
-                    Task_DataCard4 As typedDataCard.fluentV9TextualMultiLineEditCard:
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Task"
-                        Default: =ThisItem.Task
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Task")
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =166
-                        Required: =false
-                        Update: =DataCardValue56.Value
-                        Width: =667
-                        X: =0
-                        Y: =3
-                        ZIndex: =1
-
-                        DataCardKey56 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =22
-                            Text: =Parent.DisplayName
-                            Weight: ='TextCanvas.Weight'.Semibold
-                            Width: =Parent.Width - 48
-                            Wrap: =false
-                            X: =24
-                            Y: =10
-                            ZIndex: =1
-
-                        "DataCardValue56 As 'Text input'":
-                            AccessibleLabel: =Parent.DisplayName
-                            BasePaletteColor: =
-                            DisplayMode: =Parent.DisplayMode
-                            FontColor: =
-                            Height: =144
-                            Mode: ='TextInputCanvas.Mode'.Multiline
-                            Required: =Parent.Required
-                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                            Value: =Parent.Default
-                            Width: =Parent.Width - 48
-                            X: =24
-                            Y: =DataCardKey56.Y + DataCardKey56.Height + 4
-                            ZIndex: =2
-
-                        ErrorMessage56 As Text:
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: =Parent.Error
-                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =Parent.Width - 48
-                            Wrap: =true
-                            X: =24
-                            Y: =DataCardValue56.Y + DataCardValue56.Height
-                            ZIndex: =3
-
-                        StarVisible56 As Text:
-                            Align: ='TextCanvas.Align'.Center
-                            DisplayMode: =DisplayMode.Edit
-                            FontColor: =
-                            Height: =30
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            X: =0
-                            Y: =DataCardKey56.Y
                             ZIndex: =4
 
                     Date_DataCard3 As typedDataCard.fluentV9DateEditCard:
