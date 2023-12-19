@@ -179,6 +179,7 @@
 
                         DataCardKey56 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -190,7 +191,9 @@
 
                         "DataCardValue56 As 'Text input'":
                             AccessibleLabel: =Parent.DisplayName
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
+                            FontColor: =
                             Height: =144
                             Mode: ='TextInputCanvas.Mode'.Multiline
                             Required: =Parent.Required
@@ -203,6 +206,7 @@
 
                         ErrorMessage56 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -215,6 +219,7 @@
                         StarVisible56 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -240,6 +245,7 @@
 
                         DataCardKey45 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -251,8 +257,10 @@
 
                         "DataCardValue45 As 'Date picker'":
                             AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            BasePaletteColor: =
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            FontColor: =
                             Height: =32
                             SelectedDate: =Parent.Default
                             StartYear: =1900
@@ -264,6 +272,7 @@
 
                         ErrorMessage45 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -276,6 +285,7 @@
                         StarVisible45 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -301,6 +311,7 @@
 
                         DataCardKey54 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =22
                             Text: =Parent.DisplayName
                             Weight: ='TextCanvas.Weight'.Semibold
@@ -323,6 +334,7 @@
 
                         ErrorMessage54 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             Text: =Parent.Error
                             Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -335,6 +347,7 @@
                         StarVisible54 As Text:
                             Align: ='TextCanvas.Align'.Center
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =20
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -356,7 +369,9 @@
                     ZIndex: =2
 
                     ButtonCanvas5 As Button:
+                        BasePaletteColor: =
                         DisplayMode: =DisplayMode.Edit
+                        FontColor: =
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =96
@@ -367,7 +382,9 @@
                         ZIndex: =1
 
                     ButtonCanvas6 As Button:
+                        BasePaletteColor: =
                         DisplayMode: =DisplayMode.Edit
+                        FontColor: =
                         Height: =32
                         LayoutMinHeight: =32
                         LayoutMinWidth: =96
@@ -419,8 +436,6 @@
         Height: =257
         MenuBkgColor: =BaagiWhiteSmoke
         MenuItems: =colMenu
-        MenuWidth: =If(showMenu,MenuLeftNav_1.SetMenuWidth,icoWaff_Menu.Width)
-        OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
         Width: =MenuLeftNav_1.MenuWidth
         X: =17
         Y: =24

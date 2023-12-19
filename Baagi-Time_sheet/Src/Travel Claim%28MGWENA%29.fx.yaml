@@ -36,11 +36,12 @@
                 Align: =Align.Center
                 Color: =BaagiMidBlue
                 FillPortions: =1
+                Font: =Font.Georgia
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"        Travel Claim", ScreenSize.Medium, "Travel Claim🚗", "Travel Claim🚗")
+                    =Switch('Travel Claim(MGWENA)'.Size ,ScreenSize.Small,"        Travel Claim", ScreenSize.Medium, "Travel Claim", "Travel Claim")
                     
                     //gallTabs_2.Selected.Name
                 ZIndex: =2
@@ -174,6 +175,7 @@
                         Required: =false
                         Update: =DataCardValue6.SelectedDate
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =0
                         ZIndex: =2
@@ -244,6 +246,7 @@
                         Required: =false
                         Update: =DataCardValue18.SelectedDate
                         Width: =667
+                        WidthFit: =true
                         X: =1
                         Y: =0
                         ZIndex: =2
@@ -314,6 +317,7 @@
                         Required: =false
                         Update: =Value(DataCardValue14.Value)
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =1
                         ZIndex: =2
@@ -382,6 +386,7 @@
                         Required: =false
                         Update: =Value(DataCardValue7.Value)
                         Width: =667
+                        WidthFit: =true
                         X: =1
                         Y: =1
                         ZIndex: =2
@@ -450,6 +455,7 @@
                         Required: =false
                         Update: =Value(DataCardValue9.Value)
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =2
                         ZIndex: =2
@@ -518,6 +524,7 @@
                         Required: =false
                         Update: =Value(DataCardValue12.Value)
                         Width: =667
+                        WidthFit: =true
                         X: =1
                         Y: =2
                         ZIndex: =2
@@ -586,6 +593,7 @@
                         Required: =false
                         Update: =DataCardValue13.SelectedDate
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =3
                         ZIndex: =2
@@ -657,6 +665,7 @@
                         Required: =false
                         Update: =DataCardValue16.Value
                         Width: =667
+                        WidthFit: =true
                         X: =1
                         Y: =3
                         ZIndex: =2
@@ -728,6 +737,7 @@
                         Required: =false
                         Update: =DataCardValue19.Value
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =4
                         ZIndex: =2
@@ -799,6 +809,7 @@
                         Required: =false
                         Update: =DataCardValue20.Value
                         Width: =667
+                        WidthFit: =true
                         X: =1
                         Y: =4
                         ZIndex: =2
@@ -869,6 +880,7 @@
                         Required: =false
                         Update: =DataCardValue21.Attachments
                         Width: =667
+                        WidthFit: =true
                         X: =0
                         Y: =5
                         ZIndex: =2
