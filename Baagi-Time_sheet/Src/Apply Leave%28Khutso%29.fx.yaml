@@ -155,44 +155,78 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                efm_ApplyLeave_Form As form.PowerApps_CoreControls_Form:
+                frmTimesheet_capture_1 As form.PowerApps_CoreControls_Form:
                     DataSource: =Leave
                     DefaultMode: =FormMode.New
                     LayoutMinHeight: =250
                     LayoutMinWidth: =400
+                    NumberOfColumns: =2
                     UseFluentV9Cards: =true
                     ZIndex: =1
 
-                    DataCard2 As typedDataCard.blankCard:
+                    Title_DataCard1 As typedDataCard.fluentV9TextualEditCard:
                         BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
+                        DataField: ="Title"
+                        Default: =ThisItem.Title
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"Title")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =200
-                        Width: =444
-                        X: =1
-                        Y: =2
-                        ZIndex: =1
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@Leave], DataSourceInfo.MaxLength, "Title")
+                        Required: =false
+                        Update: =DataCardValue5.Value
+                        Width: =667
+                        X: =0
+                        Y: =0
+                        ZIndex: =2
 
-                        Icon3 As icon.Camera:
-                            Icon: =Icon.Camera
-                            OnSelect: |-
-                                =UpdateContext({capture:!capture})
-                            X: =188
+                        DataCardKey5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
                             ZIndex: =1
 
-                        Camera3 As camera:
-                            Camera: =0
-                            Visible: =capture
-                            X: =44
-                            Y: =60
+                        "DataCardValue5 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey5.Y + DataCardKey5.Height + 4
                             ZIndex: =2
 
-                        Image1 As image:
-                            X: =40
-                            Y: =40
+                        ErrorMessage5 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue5.Y + DataCardValue5.Height
                             ZIndex: =3
 
-                    crd_ApplyLeave_LeaveType As typedDataCard.fluentV9ComboBoxEditCard:
+                        StarVisible5 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey5.Y
+                            ZIndex: =4
+
+                    "'Leave Type_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Leave_Type"
                         Default: =ThisItem.'Leave Type'
@@ -201,13 +235,57 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
-                        Update: =DataCardValue13.Selected
-                        Width: =444
-                        X: =0
+                        Update: =DataCardValue8.Selected
+                        Width: =667
+                        X: =1
                         Y: =0
                         ZIndex: =2
 
-                    crd_ApplyLeave_Days As typedDataCard.fluentV9TextualEditCard:
+                        DataCardKey6 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue8 As Combobox.pcfdataset:
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@Leave].Leave_Type)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage8 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue8.Y + DataCardValue8.Height
+                            ZIndex: =3
+
+                        StarVisible6 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey6.Y
+                            ZIndex: =4
+
+                    Days_DataCard1 As typedDataCard.fluentV9TextualEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Num_Days"
                         Default: =ThisItem.Days
@@ -217,13 +295,59 @@
                         Height: =70
                         MaxLength: =DataSourceInfo([@Leave], DataSourceInfo.MaxLength, "Num_Days")
                         Required: =false
-                        Update: =DataCardValue15.Value
-                        Width: =444
-                        X: =1
-                        Y: =0
+                        Update: =DataCardValue10.Value
+                        Width: =667
+                        X: =0
+                        Y: =1
                         ZIndex: =2
 
-                    crd_ApplyLeave_ApprovalStatus As typedDataCard.fluentV9ComboBoxEditCard:
+                        DataCardKey8 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue10 As 'Text input'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey8.Y + DataCardKey8.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage10 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue10.Y + DataCardValue10.Height
+                            ZIndex: =3
+
+                        StarVisible8 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey8.Y
+                            ZIndex: =4
+
+                    "'Approval Status_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Approval_Status"
                         Default: =ThisItem.'Approval Status'
@@ -232,13 +356,57 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
-                        Update: =DataCardValue16.Selected
-                        Width: =444
-                        X: =2
-                        Y: =0
+                        Update: =DataCardValue11.Selected
+                        Width: =667
+                        X: =1
+                        Y: =1
                         ZIndex: =2
 
-                    crd_ApplyLeave_EmployeeNumber As typedDataCard.fluentV9ComboBoxEditCard:
+                        DataCardKey10 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue11 As Combobox.pcfdataset:
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@Leave].Approval_Status)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey10.Y + DataCardKey10.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage11 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue11.Y + DataCardValue11.Height
+                            ZIndex: =3
+
+                        StarVisible10 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey10.Y
+                            ZIndex: =4
+
+                    "'Employee Number_DataCard1' As typedDataCard.fluentV9ComboBoxEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="Employee_Number"
                         Default: =ThisItem.'Employee Number'
@@ -247,13 +415,57 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =false
-                        Update: =DataCardValue17.Selected
-                        Width: =444
+                        Update: =DataCardValue15.Selected
+                        Width: =667
                         X: =0
-                        Y: =1
+                        Y: =2
                         ZIndex: =2
 
-                    crd_ApplyLeave_Start_Date As typedDataCard.fluentV9DateEditCard:
+                        DataCardKey11 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue15 As Combobox.pcfdataset:
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@Leave].Employee_Number)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey11.Y + DataCardKey11.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage15 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue15.Y + DataCardValue15.Height
+                            ZIndex: =3
+
+                        StarVisible11 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey11.Y
+                            ZIndex: =4
+
+                    "'Start Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="From"
                         Default: =ThisItem.'Start Date'
@@ -262,13 +474,59 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =true
-                        Update: =DataCardValue18.SelectedDate
-                        Width: =444
+                        Update: =DataCardValue17.SelectedDate
+                        Width: =667
                         X: =1
-                        Y: =1
+                        Y: =2
                         ZIndex: =2
 
-                    crd_ApplyLeave_EndDate As typedDataCard.fluentV9DateEditCard:
+                        DataCardKey16 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue17 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartYear: =1900
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey16.Y + DataCardKey16.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage17 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue17.Y + DataCardValue17.Height
+                            ZIndex: =3
+
+                        StarVisible16 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey16.Y
+                            ZIndex: =4
+
+                    "'End Date_DataCard1' As typedDataCard.fluentV9DateEditCard":
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="To"
                         Default: =ThisItem.'End Date'
@@ -277,13 +535,59 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =70
                         Required: =true
-                        Update: =DataCardValue19.SelectedDate
-                        Width: =444
-                        X: =2
-                        Y: =1
+                        Update: =DataCardValue22.SelectedDate
+                        Width: =667
+                        X: =0
+                        Y: =3
                         ZIndex: =2
 
-                    crd_ApplyLeave_Attachments As typedDataCard.attachmentsEditCard:
+                        DataCardKey18 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue22 As 'Date picker'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartYear: =1900
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey18.Y + DataCardKey18.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage22 As Text:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue22.Y + DataCardValue22.Height
+                            ZIndex: =3
+
+                        StarVisible18 As Text:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey18.Y
+                            ZIndex: =4
+
+                    Attachments_DataCard2 As typedDataCard.attachmentsEditCard:
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="{Attachments}"
                         Default: =ThisItem.Attachments
@@ -292,11 +596,61 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
                         Required: =false
-                        Update: =DataCardValue20.Attachments
-                        Width: =444
-                        X: =0
-                        Y: =2
+                        Update: =DataCardValue23.Attachments
+                        Width: =667
+                        X: =1
+                        Y: =3
                         ZIndex: =2
+
+                        DataCardKey23 As label:
+                            AutoHeight: =true
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue23 As attachments:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            DisplayMode: =Parent.DisplayMode
+                            IsInDataCard: =true
+                            Items: =Parent.Default
+                            PaddingBottom: =5
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage23 As label:
+                            AutoHeight: =true
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue23.Y + DataCardValue23.Height
+                            ZIndex: =3
+
+                        StarVisible23 As label:
+                            Align: =Align.Center
+                            Height: =DataCardKey23.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey23.Y
+                            ZIndex: =4
 
         hcn_ApplyLeave_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
