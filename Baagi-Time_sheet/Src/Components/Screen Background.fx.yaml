@@ -1,5 +1,6 @@
 "'Screen Background' As CanvasComponent":
     Fill: =RGBA(0, 0, 0, 0)
+    HeaderTitle: ="Text"
     Height: =768
     Width: =1366
     X: =0
