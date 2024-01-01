@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |+
+    OnStart: |
         =Set(
             BaagiLightBlue,
             RGBA(
@@ -98,25 +98,33 @@ App As appinfo:
             varTabSelected,
             1
         );
-        Collect(colMenu,Table(
-            {
-                MenuLabel: "Time Sheet",
-                menuIcon: Icon.Clock,
-                MenuScreenNav: 'Time Sheet(Silu)',
-                MenuID: 1
-            },{
-                MenuLabel: "Apply Leave",
-                menuIcon: Icon.Leave,
-                MenuScreenNav: 'Apply Leave(Khutso)',
-                MenuID: 2
-            },{
-                MenuLabel: "Travel Claim",
-                menuIcon: Icon.Cars,
-                MenuScreenNav: 'Travel Claim(MGWENA)',
-                MenuID: 3
-            }
-        ));
-        
+        Set(
+            VarTabsSel,
+            1
+        );
+        Collect(
+            colMenu,
+            Table(
+                {
+                    MenuLabel: "Time Sheet",
+                    menuIcon: Icon.Clock,
+                    MenuScreenNav: 'Time Sheet(Silu)',
+                    MenuID: 1
+                },
+                {
+                    MenuLabel: "Apply Leave",
+                    menuIcon: Icon.Leave,
+                    MenuScreenNav: 'Apply Leave(Khutso)',
+                    MenuID: 2
+                },
+                {
+                    MenuLabel: "Travel Claim",
+                    menuIcon: Icon.Cars,
+                    MenuScreenNav: 'Travel Claim(MGWENA)',
+                    MenuID: 3
+                }
+            )
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

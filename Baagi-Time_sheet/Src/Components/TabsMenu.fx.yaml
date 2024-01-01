@@ -20,12 +20,16 @@ TabsMenu As CanvasComponent:
             LayoutMinHeight: =287
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
+            OnSelect: =Set(VarTabsSel,ThisItem.ID)
             TemplateSize: =Parent.Height
             WrapCount: =CountRows(TabsMenu.Tabs_Table)
             ZIndex: =1
 
             Label3 As label:
+                Align: =Align.Center
+                Color: =RGBA(15, 108, 189, 1)
                 Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                FontWeight: =FontWeight.Bold
                 OnSelect: =Select(Parent)
                 Text: =ThisItem.Name
                 Width: =Parent.TemplateWidth
@@ -43,7 +47,18 @@ TabsMenu As CanvasComponent:
             Rectangle3 As rectangle:
                 Height: =4
                 OnSelect: =Select(Parent)
-                X: =54
-                Y: =81
+                Visible: =VarTabsSel = ThisItem.ID
+                Width: =Parent.TemplateWidth
+                Y: =92
                 ZIndex: =3
+
+            Button1 As button:
+                Fill: =Color.Transparent
+                Height: =Parent.TemplateHeight
+                HoverFill: =Self.Fill
+                OnSelect: =Select(Parent)
+                PressedFill: =Self.Fill
+                Text: =""
+                Width: =Parent.TemplateWidth
+                ZIndex: =4
 
