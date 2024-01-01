@@ -25,23 +25,25 @@ TabsMenu As CanvasComponent:
             ZIndex: =1
 
             Label3 As label:
+                Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                 OnSelect: =Select(Parent)
                 Text: =ThisItem.Name
-                X: =5
-                Y: =5
+                Width: =Parent.TemplateWidth
+                Y: =34
                 ZIndex: =1
 
             Icon2 As icon.Add:
+                Height: =34
                 Icon: =ThisItem.Logo
                 OnSelect: =Select(Parent)
-                Width: =69
-                X: =155
+                Width: =40
+                X: =(Parent.TemplateWidth-Self.Width)/2
                 ZIndex: =2
 
             Rectangle3 As rectangle:
                 Height: =4
                 OnSelect: =Select(Parent)
-                X: =60
-                Y: =60
+                X: =54
+                Y: =81
                 ZIndex: =3
 
