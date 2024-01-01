@@ -575,6 +575,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TabsMenu",
+                "type": "TabsMenu.ContTabs.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TabsMenu",
+                "type": "TabsMenu.ContTabs.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "MenuLeftNav.icoWaff_Menu.AccessibleLabel"
                 }
               ],
@@ -995,276 +1055,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Apply Leave(Khutso)",
-                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Time Sheet(Silu)'.ScreenContainer1.MainContainer1.TabsContainer.gallTabs_3.AccessibleLabel"
                 }
               ],
@@ -1565,96 +1355,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "TabsMenu",
-                "type": "TabsMenu.ContTabs.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "TabsMenu",
-                "type": "TabsMenu.ContTabs.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.AccessibleLabel"
                 }
               ],
@@ -1685,19 +1385,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4.TabIndex"
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4.TabIndex",
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4"
+                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4"
               }
             }
           ],
@@ -1745,19 +1445,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4.TabIndex"
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4.TabIndex",
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4"
+                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Icon4_4"
               }
             }
           ],
@@ -1805,19 +1505,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4.TabIndex"
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4.TabIndex",
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4"
+                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Label4_4"
               }
             }
           ],
@@ -1859,6 +1559,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.ScreenContainer1_1.MainContainer1_3.TabsContainer_1.gallTabs_4.Rectangle3_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2195,17 +1925,287 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.VarTabsSel"
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.VarTabsSel",
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "VarTabsSel",
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Icon4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Label4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.hcn_ApplyLeave_Tabs.gallTabs_1.Rectangle3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Apply Leave(Khutso)",
+                "type": "'Apply Leave(Khutso)'.vcn_ApplyLeave_Main.MainContainer1_1.MainSectionContainer1_1.frmTimesheet_capture_1.Attachments_DataCard2.DataCardValue23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.BaagiFontMor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.BaagiFontMor",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "BaagiFontMor",
                 "module": "App",
                 "type": "App"
               }
@@ -2255,17 +2255,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.BaagiFontMor"
+                  "fullyQualifiedName": "App.VarTabsSel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.BaagiFontMor",
+                  "fullyQualifiedName": "App.VarTabsSel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "BaagiFontMor",
+                "member": "VarTabsSel",
                 "module": "App",
                 "type": "App"
               }

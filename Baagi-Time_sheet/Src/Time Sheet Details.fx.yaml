@@ -167,6 +167,7 @@
 
                     Form4 As form.PowerApps_CoreControls_Form:
                         DataSource: =Timesheet
+                        DefaultMode: =FormMode.New
                         LayoutMinHeight: =250
                         LayoutMinWidth: =400
                         UseFluentV9Cards: =true
@@ -182,13 +183,14 @@
                             Height: =197
                             Required: =false
                             Update: =DataCardValue57.Value
-                            Width: =1332
-                            X: =0
-                            Y: =2
+                            Width: =444
+                            X: =1
+                            Y: =1
                             ZIndex: =1
 
                             DataCardKey57 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =22
                                 Text: =Parent.DisplayName
                                 Weight: ='TextCanvas.Weight'.Semibold
@@ -200,19 +202,22 @@
 
                             "DataCardValue57 As 'Text input'":
                                 AccessibleLabel: =Parent.DisplayName
+                                BasePaletteColor: =
                                 DisplayMode: =Parent.DisplayMode
+                                FontColor: =
                                 Height: =144
                                 Mode: ='TextInputCanvas.Mode'.Multiline
                                 Required: =Parent.Required
                                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                                 Value: =Parent.Default
-                                Width: =Parent.Width - 48
+                                Width: =403
                                 X: =24
                                 Y: =DataCardKey57.Y + DataCardKey57.Height + 4
                                 ZIndex: =2
 
                             ErrorMessage57 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: =Parent.Error
                                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -225,6 +230,7 @@
                             StarVisible57 As Text:
                                 Align: ='TextCanvas.Align'.Center
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: ="*"
                                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -233,16 +239,6 @@
                                 Y: =DataCardKey57.Y
                                 ZIndex: =4
 
-                        DataCard1 As typedDataCard.blankCard:
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =86
-                            Width: =444
-                            X: =0
-                            Y: =3
-                            ZIndex: =1
-
                         "'Period Start  Date_DataCard2' As typedDataCard.fluentV9DateEditCard":
                             BorderStyle: =BorderStyle.Solid
                             DataField: ="StartPeriodDate"
@@ -250,7 +246,7 @@
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"StartPeriodDate")
                             Fill: =RGBA(0, 0, 0, 0)
-                            Height: =70
+                            Height: =82
                             Required: =false
                             Update: =DataCardValue51.SelectedDate
                             Width: =444
@@ -260,6 +256,7 @@
 
                             DataCardKey51 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =22
                                 Text: =Parent.DisplayName
                                 Weight: ='TextCanvas.Weight'.Semibold
@@ -271,8 +268,10 @@
 
                             "DataCardValue51 As 'Date picker'":
                                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                                BasePaletteColor: =
                                 DisplayMode: =Parent.DisplayMode
                                 EndYear: =Year(Today())+100
+                                FontColor: =
                                 Height: =32
                                 SelectedDate: =Parent.Default
                                 StartYear: =1900
@@ -284,6 +283,7 @@
 
                             ErrorMessage51 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: =Parent.Error
                                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -296,6 +296,7 @@
                             StarVisible51 As Text:
                                 Align: ='TextCanvas.Align'.Center
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: ="*"
                                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -311,7 +312,7 @@
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"EndPeriodDate")
                             Fill: =RGBA(0, 0, 0, 0)
-                            Height: =70
+                            Height: =61
                             Required: =false
                             Update: =DataCardValue52.SelectedDate
                             Width: =444
@@ -321,6 +322,7 @@
 
                             DataCardKey52 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =22
                                 Text: =Parent.DisplayName
                                 Weight: ='TextCanvas.Weight'.Semibold
@@ -332,8 +334,10 @@
 
                             "DataCardValue52 As 'Date picker'":
                                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                                BasePaletteColor: =
                                 DisplayMode: =Parent.DisplayMode
                                 EndYear: =Year(Today())+100
+                                FontColor: =
                                 Height: =32
                                 SelectedDate: =Parent.Default
                                 StartYear: =1900
@@ -345,6 +349,7 @@
 
                             ErrorMessage52 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: =Parent.Error
                                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -357,73 +362,13 @@
                             StarVisible52 As Text:
                                 Align: ='TextCanvas.Align'.Center
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: ="*"
                                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                                 Width: =30
                                 X: =0
                                 Y: =DataCardKey52.Y
-                                ZIndex: =4
-
-                        Date_DataCard2 As typedDataCard.fluentV9DateEditCard:
-                            BorderStyle: =BorderStyle.Solid
-                            DataField: ="Date"
-                            Default: =ThisItem.Date
-                            DisplayMode: =Parent.DisplayMode
-                            DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Date")
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =70
-                            Required: =false
-                            Update: =DataCardValue40.SelectedDate
-                            Width: =444
-                            X: =2
-                            Y: =0
-                            ZIndex: =2
-
-                            DataCardKey40 As Text:
-                                DisplayMode: =DisplayMode.Edit
-                                Height: =22
-                                Text: =Parent.DisplayName
-                                Weight: ='TextCanvas.Weight'.Semibold
-                                Width: =Parent.Width - 48
-                                Wrap: =false
-                                X: =24
-                                Y: =10
-                                ZIndex: =1
-
-                            "DataCardValue40 As 'Date picker'":
-                                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                                DisplayMode: =Parent.DisplayMode
-                                EndYear: =Year(Today())+100
-                                Height: =32
-                                SelectedDate: =Today()
-                                StartYear: =1900
-                                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                                Width: =Parent.Width - 48
-                                X: =24
-                                Y: =DataCardKey40.Y + DataCardKey40.Height + 4
-                                ZIndex: =2
-
-                            ErrorMessage40 As Text:
-                                DisplayMode: =DisplayMode.Edit
-                                Height: =30
-                                Text: =Parent.Error
-                                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                                Width: =Parent.Width - 48
-                                Wrap: =true
-                                X: =24
-                                Y: =DataCardValue40.Y + DataCardValue40.Height
-                                ZIndex: =3
-
-                            StarVisible40 As Text:
-                                Align: ='TextCanvas.Align'.Center
-                                DisplayMode: =DisplayMode.Edit
-                                Height: =30
-                                Text: ="*"
-                                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                                Width: =30
-                                X: =0
-                                Y: =DataCardKey40.Y
                                 ZIndex: =4
 
                         "'Regular Hours_DataCard2' As typedDataCard.fluentV9NumberEditCard":
@@ -433,16 +378,17 @@
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Regular_Hours")
                             Fill: =RGBA(0, 0, 0, 0)
-                            Height: =131
+                            Height: =62
                             Required: =false
                             Update: =Value(DataCardValue46.Value)
                             Width: =444
-                            X: =0
-                            Y: =1
+                            X: =2
+                            Y: =0
                             ZIndex: =2
 
                             DataCardKey46 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =22
                                 Text: =Parent.DisplayName
                                 Weight: ='TextCanvas.Weight'.Semibold
@@ -454,7 +400,9 @@
 
                             "DataCardValue46 As 'Text input'":
                                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                                BasePaletteColor: =
                                 DisplayMode: =Parent.DisplayMode
+                                FontColor: =
                                 Height: =32
                                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                                 Value: =Parent.Default
@@ -465,6 +413,7 @@
 
                             ErrorMessage46 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: =Parent.Error
                                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -477,6 +426,7 @@
                             StarVisible46 As Text:
                                 Align: ='TextCanvas.Align'.Center
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: ="*"
                                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -492,16 +442,17 @@
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Timesheet],DataSourceInfo.DisplayName,"Overtime_Hours")
                             Fill: =RGBA(0, 0, 0, 0)
-                            Height: =78
+                            Height: =114
                             Required: =false
                             Update: =Value(DataCardValue47.Value)
                             Width: =444
-                            X: =1
+                            X: =0
                             Y: =1
                             ZIndex: =2
 
                             DataCardKey47 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =22
                                 Text: =Parent.DisplayName
                                 Weight: ='TextCanvas.Weight'.Semibold
@@ -513,7 +464,9 @@
 
                             "DataCardValue47 As 'Text input'":
                                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                                BasePaletteColor: =
                                 DisplayMode: =Parent.DisplayMode
+                                FontColor: =
                                 Height: =32
                                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                                 Value: =Parent.Default
@@ -524,6 +477,7 @@
 
                             ErrorMessage47 As Text:
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: =Parent.Error
                                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -536,6 +490,7 @@
                             StarVisible47 As Text:
                                 Align: ='TextCanvas.Align'.Center
                                 DisplayMode: =DisplayMode.Edit
+                                FontColor: =
                                 Height: =30
                                 Text: ="*"
                                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
