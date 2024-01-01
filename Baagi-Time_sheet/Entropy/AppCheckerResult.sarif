@@ -1865,6 +1865,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Screen_1",
+                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "New Screen_1",
+                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VarTabsSel"
                 }
               ],

@@ -156,6 +156,55 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
+                Container1 As groupContainer.horizontalAutoLayoutContainer:
+                    FillPortions: =0
+                    Height: =50
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutGap: =2
+                    LayoutJustifyContent: =LayoutJustifyContent.End
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    ZIndex: =1
+
+                    BtnAddNew As button:
+                        AlignInContainer: =AlignInContainer.Center
+                        Color: =RGBA(0, 0, 0, 1)
+                        Fill: =BaagiLightBlue
+                        HoverColor: =RGBA(0,0,0,0)
+                        HoverFill: =RGBA(0,0,0,0)
+                        PaddingBottom: =10
+                        PaddingLeft: =10
+                        PaddingRight: =10
+                        PaddingTop: =10
+                        Text: ="Add New"
+                        Width: =120
+                        ZIndex: =1
+
+                Gallery3 As gallery.galleryVertical:
+                    DelayItemLoading: =true
+                    FillPortions: =0
+                    Height: =425
+                    Items: =Timesheet
+                    Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    WrapCount: =3
+                    ZIndex: =2
+
+                    Rectangle4 As rectangle:
+                        Fill: =RGBA(219, 219, 219, 1)
+                        Height: =278
+                        OnSelect: =Select(Parent)
+                        Width: =Parent.TemplateWidth
+                        ZIndex: =1
+
         FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
             Fill: =BaagiLightBlue
