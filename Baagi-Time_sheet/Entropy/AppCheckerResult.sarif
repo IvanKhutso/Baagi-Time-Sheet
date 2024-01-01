@@ -1865,19 +1865,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Screen_1",
-                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3"
+                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding"
               }
             }
           ],
@@ -1895,19 +1895,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.TabIndex"
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3.TabIndex",
+                  "fullyQualifiedName": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "New Screen_1",
-                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.Gallery3"
+                "type": "'New Screen_1'.ScreenContainer1_1.MainContainer1_3.MainSectionContainer1_3.gal_TimeSheetLanding"
               }
             }
           ],
