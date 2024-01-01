@@ -14,3 +14,26 @@
         Width: =Parent.Width
         ZIndex: =1
 
+        Container3 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =90
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+        Container4 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+        Container3_1 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =90
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
