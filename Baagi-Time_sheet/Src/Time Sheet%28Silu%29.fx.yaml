@@ -680,6 +680,7 @@
 
             Image2 As image:
                 AlignInContainer: =AlignInContainer.Center
+                DisplayMode: =DisplayMode.View
                 Height: =75
                 Image: ='baagi_technology logo'
                 ImagePosition: =ImagePosition.Stretch

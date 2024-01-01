@@ -101,6 +101,7 @@
             Fill: =RGBA(173, 216, 230, 1)
             FillPortions: =0
             Height: =80
+            LayoutAlignItems: =LayoutAlignItems.Center
             LayoutJustifyContent: =LayoutJustifyContent.End
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -112,16 +113,28 @@
             Width: =Parent.Width
             ZIndex: =3
 
+            Label5 As label:
+                Color: |-
+                    =RGBA(
+                            25,
+                            25,
+                            112,
+                            1
+                        )
+                Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                FontWeight: =FontWeight.Semibold
+                Size: =9
+                Text: ="Powered By Baagitech"
+                ZIndex: =1
+
             Image4 As image:
-                AlignInContainer: =AlignInContainer.Center
                 Height: =75
                 Image: ='baagi_technology logo'
                 ImagePosition: =ImagePosition.Stretch
-                PaddingRight: =5
                 RadiusBottomLeft: =10
                 RadiusBottomRight: =10
                 RadiusTopLeft: =10
                 RadiusTopRight: =10
                 Width: =75
-                ZIndex: =1
+                ZIndex: =2
 
