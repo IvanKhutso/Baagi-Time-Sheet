@@ -36,6 +36,8 @@
       "Employee_Number#Id": "Employee Number Id",
       "EmployeeEmail": "Employee Email",
       "EndPeriodDate": "Period End Date",
+      "FullNames": "Full Names",
+      "FullNames#Id": "Full Names Id",
       "Hours": "Hours",
       "ID": "ID",
       "Leave_ID": "Leave ID",
@@ -47,7 +49,6 @@
       "StartPeriodDate": "Period Start  Date",
       "Task": "Task",
       "Title": "Title",
-      "Total_Hours": "Total Hours",
       "User_ID": "User ID",
       "User_ID#Id": "User ID Id"
     },

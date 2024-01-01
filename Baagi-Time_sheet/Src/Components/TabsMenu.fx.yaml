@@ -1,0 +1,23 @@
+TabsMenu As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =100
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    ContTabs As groupContainer.horizontalAutoLayoutContainer:
+        Height: =100
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =1
+
+        Gallery2 As gallery.galleryHorizontal:
+            DelayItemLoading: =true
+            Items: =CustomGallerySample
+            LayoutMinHeight: =287
+            LayoutMinWidth: =320
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+            ZIndex: =1
+

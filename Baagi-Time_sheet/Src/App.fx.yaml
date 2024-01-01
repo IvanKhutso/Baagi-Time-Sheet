@@ -92,11 +92,6 @@ App As appinfo:
                 Name: "Travel Claim",
                 Logo: Icon.Cars,
                 Screen: 'Travel Claim(MGWENA)'
-            },
-            {
-                ID: 4,
-                Name: "Leave Status",
-                Logo: Icon.Information
             }
         );
         Set(
