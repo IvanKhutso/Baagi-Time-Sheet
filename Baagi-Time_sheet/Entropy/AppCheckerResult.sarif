@@ -1565,49 +1565,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery2.TabIndex"
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "TabsMenu",
-                "type": "TabsMenu.ContTabs.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TabsMenu",
-                "type": "TabsMenu.ContTabs.Gallery2"
+                "type": "TabsMenu.ContTabs.Gallery5"
               }
             }
           ],
@@ -1619,6 +1589,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "TabsMenu.ContTabs.Gallery5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TabsMenu",
+                "type": "TabsMenu.ContTabs.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
         },
         {
           "locations": [

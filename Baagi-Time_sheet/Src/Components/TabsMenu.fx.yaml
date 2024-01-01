@@ -1,6 +1,7 @@
 TabsMenu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =100
+    Tabs_Table: =coltabs
     Width: =1366
     X: =0
     Y: =0
@@ -12,12 +13,35 @@ TabsMenu As CanvasComponent:
         Width: =1366
         ZIndex: =1
 
-        Gallery2 As gallery.galleryHorizontal:
+        Gallery5 As gallery.galleryVertical:
             DelayItemLoading: =true
-            Items: =CustomGallerySample
+            Items: =TabsMenu.Tabs_Table
+            Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+            TemplateSize: =Parent.Height
+            WrapCount: =CountRows(TabsMenu.Tabs_Table)
             ZIndex: =1
+
+            Label3 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Name
+                X: =5
+                Y: =5
+                ZIndex: =1
+
+            Icon2 As icon.Add:
+                Icon: =ThisItem.Logo
+                OnSelect: =Select(Parent)
+                Width: =69
+                X: =155
+                ZIndex: =2
+
+            Rectangle3 As rectangle:
+                Height: =4
+                OnSelect: =Select(Parent)
+                X: =60
+                Y: =60
+                ZIndex: =3
 
