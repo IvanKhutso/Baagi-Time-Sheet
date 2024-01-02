@@ -175,6 +175,7 @@
                         AlignInContainer: =AlignInContainer.Center
                         Color: =RGBA(0, 0, 0, 1)
                         Fill: =BaagiLightBlue
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                         HoverColor: =RGBA(0,0,0,0)
                         HoverFill: =RGBA(0,0,0,0)
                         PaddingBottom: =10

@@ -47,7 +47,7 @@
                 Height: =75
                 Size: =Switch('Travel Claim Details'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Travel Claim Details'.Size ,ScreenSize.Small,"        Leave Details ", ScreenSize.Medium, "🕺Leave Details💃", "🕺Leave Details💃")
+                    =Switch('Travel Claim Details'.Size ,ScreenSize.Small,"        Travel Claim Details ", ScreenSize.Medium, "🚘Travel Claim Details✈️", "🚘Travel Claim Details✈️")
                     
                     //gallTabs_3.Selected.Name
                 ZIndex: =2
