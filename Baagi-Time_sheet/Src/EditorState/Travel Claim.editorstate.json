@@ -1451,7 +1451,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "TemplateSize",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))",
+          "InvariantPropertyName": "TemplateSize",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -3661,7 +3668,7 @@
       "MetaDataIDKey": "",
       "Name": "Label10_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3944,7 +3951,7 @@
       "MetaDataIDKey": "",
       "Name": "Label11_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4227,7 +4234,7 @@
       "MetaDataIDKey": "",
       "Name": "Label11_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

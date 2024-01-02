@@ -200,7 +200,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =8
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    TemplateSize: =200//If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                     Transition: =Transition.Push
                     WrapCount: =3
                     ZIndex: =2
@@ -224,7 +224,7 @@
                             ="Claim Date : " 
                         Width: =129
                         X: =12
-                        Y: =49
+                        Y: =23
                         ZIndex: =2
 
                     Label9_2 As label:
@@ -235,7 +235,7 @@
                         Text: =ThisItem.'Claim Date'
                         Width: =174
                         X: =155
-                        Y: =49
+                        Y: =23
                         ZIndex: =3
 
                     Label10_4 As label:
@@ -248,18 +248,18 @@
                             ="Reason :  " 
                         Width: =105
                         X: =12
-                        Y: =122
+                        Y: =74
                         ZIndex: =4
 
                     Label11_4 As label:
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
-                        Height: =61
+                        Height: =43
                         OnSelect: =Select(Parent)
                         Size: =16
                         Text: =ThisItem.Travel_Reason
                         Width: =220
                         X: =155
-                        Y: =122
+                        Y: =75
                         ZIndex: =5
 
                     Label10_5 As label:
@@ -272,7 +272,7 @@
                             ="Status :  " 
                         Width: =105
                         X: =12
-                        Y: =187
+                        Y: =140
                         ZIndex: =6
 
                     Label11_5 As label:
@@ -281,7 +281,7 @@
                         Size: =16
                         Text: =ThisItem.'Approval Status'.Value
                         X: =155
-                        Y: =183
+                        Y: =140
                         ZIndex: =7
 
         FooterContainer1_6 As groupContainer.horizontalAutoLayoutContainer:
