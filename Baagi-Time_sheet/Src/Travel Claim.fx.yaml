@@ -32,6 +32,11 @@
             RadiusTopRight: =8
             ZIndex: =2
 
+            Icon3_3 As icon.BackArrow:
+                Color: =BaagiMidBlue
+                Icon: =Icon.BackArrow
+                ZIndex: =1
+
             lblHeader_6 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.Center
@@ -42,10 +47,10 @@
                 Height: =75
                 Size: =Switch('Travel Claim'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Travel Claim'.Size ,ScreenSize.Small,"        Time Sheet ", ScreenSize.Medium, "😄Time Sheet⌛", "😄Time Sheet⌛")
+                    =Switch('Travel Claim'.Size ,ScreenSize.Small,"        Travel Claim ", ScreenSize.Medium, "🚘Travel Claim✈️", "🚘Travel Claim✈️")
                     
                     //gallTabs_3.Selected.Name
-                ZIndex: =1
+                ZIndex: =2
 
             lblWelcome_6 As label:
                 Color: =BaagiMidBlue
@@ -55,7 +60,7 @@
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
                 Visible: ='Travel Claim'.Size<>ScreenSize.Small 
-                ZIndex: =2
+                ZIndex: =3
 
             Image3_6 As image:
                 Height: =70
@@ -66,7 +71,7 @@
                 RadiusTopLeft: =70
                 RadiusTopRight: =70
                 Width: =70
-                ZIndex: =3
+                ZIndex: =4
 
         MainContainer1_7 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
