@@ -296,7 +296,7 @@
 
                     Label11_3 As label:
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
-                        Height: =37
+                        Height: =32
                         OnSelect: =Select(Parent)
                         Size: =16
                         Text: =ThisItem.'Approval Status'.Value

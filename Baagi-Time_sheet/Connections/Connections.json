@@ -28,6 +28,9 @@
           "Timesheet": {
             "tableName": "901078fe-479a-4444-b482-45356fb04dcc"
           },
+          "Travel": {
+            "tableName": "86d1d017-a810-466f-a2d7-c2097e597c43"
+          },
           "Travel_1": {
             "tableName": "86d1d017-a810-466f-a2d7-c2097e597c43"
           },
@@ -41,7 +44,8 @@
       "Leave",
       "Travel_1",
       "Travel_2",
-      "Timesheet"
+      "Timesheet",
+      "Travel"
     ],
     "dependencies": {},
     "dependents": [],
