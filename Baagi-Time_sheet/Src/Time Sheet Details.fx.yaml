@@ -63,14 +63,14 @@
                 ZIndex: =3
 
             Image3_3 As image:
-                Height: =75
+                Height: =70
                 Image: =User().Image
                 PaddingLeft: =1
-                RadiusBottomLeft: =75
-                RadiusBottomRight: =75
-                RadiusTopLeft: =75
-                RadiusTopRight: =75
-                Width: =75
+                RadiusBottomLeft: =70
+                RadiusBottomRight: =70
+                RadiusTopLeft: =70
+                RadiusTopRight: =70
+                Width: =70
                 ZIndex: =4
 
         MainContainer1_4 As groupContainer.verticalAutoLayoutContainer:

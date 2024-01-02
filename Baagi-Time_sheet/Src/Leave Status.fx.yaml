@@ -1,7 +1,7 @@
-"'Time Sheet' As screen.'autoLayout_HeaderFooter_ver1.0'":
+"'Leave Status' As screen.'autoLayout_HeaderFooter_ver1.0'":
     OnVisible: =Set(varShowMenu,true);Set(varShowMenu,false);
 
-    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+    ScreenContainer1_4 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -16,7 +16,7 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        HeaderContainer1_4 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
             Fill: =BaagiLightBlue
             FillPortions: =0
@@ -32,7 +32,7 @@
             RadiusTopRight: =8
             ZIndex: =2
 
-            lblHeader_1 As label:
+            lblHeader_4 As label:
                 Align: =Align.Center
                 AlignInContainer: =AlignInContainer.Center
                 Color: =BaagiMidBlue
@@ -40,24 +40,24 @@
                 Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                 FontWeight: =FontWeight.Bold
                 Height: =75
-                Size: =Switch('Time Sheet'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
+                Size: =Switch('Leave Status'.Size ,ScreenSize.Small,20,ScreenSize.Medium,24,28)
                 Text: |-
-                    =Switch('Time Sheet'.Size ,ScreenSize.Small,"        Time Sheet ", ScreenSize.Medium, "😄Time Sheet⌛", "😄Time Sheet⌛")
+                    =Switch('Leave Status'.Size ,ScreenSize.Small,"        Leave Status ", ScreenSize.Medium, "🕺Leave Status💃", "🕺Leave Status💃")
                     
                     //gallTabs_3.Selected.Name
                 ZIndex: =1
 
-            lblWelcome_1 As label:
+            lblWelcome_4 As label:
                 Color: =BaagiMidBlue
                 Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                 FontWeight: =FontWeight.Bold
                 Height: =75
                 Size: =11
                 Text: =Concatenate("Welcome"," ",User().FullName)
-                Visible: ='Time Sheet'.Size<>ScreenSize.Small 
+                Visible: ='Leave Status'.Size<>ScreenSize.Small 
                 ZIndex: =2
 
-            Image3_1 As image:
+            Image3_4 As image:
                 Height: =70
                 Image: =User().Image
                 PaddingLeft: =1
@@ -68,7 +68,7 @@
                 Width: =70
                 ZIndex: =3
 
-        MainContainer1_3 As groupContainer.verticalAutoLayoutContainer:
+        MainContainer1_5 As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
@@ -81,7 +81,7 @@
             RadiusTopRight: =8
             ZIndex: =3
 
-            TabsContainer_1 As groupContainer.horizontalAutoLayoutContainer:
+            TabsContainer_4 As groupContainer.horizontalAutoLayoutContainer:
                 FillPortions: =0
                 Height: =100
                 LayoutMinHeight: =100
@@ -89,7 +89,7 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                gallTabs_4 As gallery.galleryVertical:
+                gallTabs_6 As gallery.galleryVertical:
                     DelayItemLoading: =true
                     Items: =coltabs
                     Layout: =Layout.Vertical
@@ -104,7 +104,7 @@
                     WrapCount: =CountRows(coltabs)
                     ZIndex: =1
 
-                    Label4_4 As label:
+                    Label4_6 As label:
                         Align: =Align.Center
                         Color: =RGBA(15, 108, 189, 1)
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
@@ -118,7 +118,7 @@
                         Y: =54
                         ZIndex: =1
 
-                    Icon4_4 As icon.Add:
+                    Icon4_6 As icon.Add:
                         Height: =43
                         Icon: =ThisItem.Logo
                         OnSelect: |-
@@ -129,7 +129,7 @@
                         Y: =11
                         ZIndex: =2
 
-                    Rectangle3_4 As rectangle:
+                    Rectangle3_6 As rectangle:
                         Height: =4
                         OnSelect: |-
                             =//Navigate(ThisItem.Screen);;
@@ -139,7 +139,7 @@
                         Y: =96
                         ZIndex: =3
 
-                    Button1_4 As button:
+                    Button1_6 As button:
                         Fill: =Color.Transparent
                         Height: =100
                         HoverFill: =Self.Fill
@@ -149,14 +149,14 @@
                         Width: =Parent.TemplateWidth
                         ZIndex: =4
 
-            MainSectionContainer1_3 As groupContainer.verticalAutoLayoutContainer:
+            MainSectionContainer1_5 As groupContainer.verticalAutoLayoutContainer:
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                Container1 As groupContainer.horizontalAutoLayoutContainer:
+                Container1_1 As groupContainer.horizontalAutoLayoutContainer:
                     FillPortions: =0
                     Height: =50
                     LayoutAlignItems: =LayoutAlignItems.Center
@@ -171,7 +171,7 @@
                     RadiusTopRight: =8
                     ZIndex: =1
 
-                    BtnAddNew As button:
+                    BtnAddNew_1 As button:
                         AlignInContainer: =AlignInContainer.Center
                         Color: =RGBA(0, 0, 0, 1)
                         Fill: =BaagiLightBlue
@@ -185,11 +185,11 @@
                         Width: =120
                         ZIndex: =1
 
-                gal_TimeSheetLanding As gallery.galleryVertical:
+                gal_TimeSheetLanding_1 As gallery.galleryVertical:
                     DelayItemLoading: =true
                     FillPortions: =0
                     Height: =425
-                    Items: =Timesheet
+                    Items: =Leave
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -200,7 +200,7 @@
                     WrapCount: =3
                     ZIndex: =2
 
-                    Button5 As button:
+                    Button5_1 As button:
                         DisplayMode: =DisplayMode.View
                         Fill: =RGBA(219, 219, 219, 1)
                         Height: =Parent.TemplateHeight
@@ -209,57 +209,103 @@
                         Width: =Parent.TemplateWidth
                         ZIndex: =1
 
-                    Label8 As label:
+                    Label8_1 As label:
                         DisplayMode: =DisplayMode.View
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                         FontWeight: =FontWeight.Semibold
+                        Height: =27
                         OnSelect: =Select(Parent)
+                        Size: =16
                         Text: |-
-                            ="Task : " 
-                        Width: =62
+                            ="Start Date : " 
+                        Width: =130
                         X: =12
                         Y: =24
                         ZIndex: =2
 
-                    Label9 As label:
+                    Label9_1 As label:
                         DisplayMode: =DisplayMode.View
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        Height: =27
                         OnSelect: =Select(Parent)
-                        Text: =ThisItem.Task
-                        Width: =332
-                        X: =85
+                        Size: =16
+                        Text: =ThisItem.'Start Date'
+                        Width: =131
+                        X: =231
                         Y: =24
                         ZIndex: =3
 
-                    Label10 As label:
+                    Label10_1 As label:
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                         FontWeight: =FontWeight.Semibold
-                        Height: =38
+                        Height: =25
                         OnSelect: =Select(Parent)
+                        Size: =16
                         Text: |-
-                            ="Date : " 
-                        Width: =73
+                            ="No Of Days : " 
+                        Width: =140
                         X: =12
-                        Y: =145
+                        Y: =76
                         ZIndex: =4
 
-                    Label11 As label:
+                    Label11_1 As label:
                         Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        Height: =25
                         OnSelect: =Select(Parent)
-                        Text: =ThisItem.Date
-                        X: =85
-                        Y: =145
+                        Size: =16
+                        Text: =ThisItem.Days
+                        X: =231
+                        Y: =76
                         ZIndex: =5
 
-                    Rectangle6 As rectangle:
-                        Fill: =RGBA(79, 90, 94, 1)
-                        Height: =2
+                    Label10_2 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        FontWeight: =FontWeight.Semibold
+                        Height: =25
                         OnSelect: =Select(Parent)
-                        Width: =Parent.TemplateWidth
-                        Y: =139
+                        Size: =16
+                        Text: |-
+                            ="Type : " 
+                        Width: =76
+                        X: =12
+                        Y: =127
                         ZIndex: =6
 
-        FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+                    Label11_2 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        Height: =25
+                        OnSelect: =Select(Parent)
+                        Size: =16
+                        Text: =ThisItem.'Leave Type'.Value
+                        X: =231
+                        Y: =127
+                        ZIndex: =7
+
+                    Label10_3 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        FontWeight: =FontWeight.Semibold
+                        Height: =25
+                        OnSelect: =Select(Parent)
+                        Size: =16
+                        Text: |-
+                            ="Status:  " 
+                        Width: =76
+                        X: =12
+                        Y: =180
+                        ZIndex: =8
+
+                    Label11_3 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        Height: =37
+                        OnSelect: =Select(Parent)
+                        Size: =16
+                        Text: =ThisItem.'Approval Status'.Value
+                        Width: =90
+                        X: =231
+                        Y: =180
+                        ZIndex: =9
+
+        FooterContainer1_4 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
             Fill: =BaagiLightBlue
             FillPortions: =0
@@ -275,7 +321,7 @@
             RadiusTopRight: =8
             ZIndex: =4
 
-            Label2_3 As label:
+            Label2_5 As label:
                 Color: =BaagiMidBlue
                 Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
                 FontWeight: =FontWeight.Bold
@@ -283,7 +329,7 @@
                 Text: ="Powered By Baagitech"
                 ZIndex: =1
 
-            Image2_3 As image:
+            Image2_5 As image:
                 AlignInContainer: =AlignInContainer.Center
                 DisplayMode: =DisplayMode.View
                 Height: =75
