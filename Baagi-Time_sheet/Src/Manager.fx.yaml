@@ -165,6 +165,7 @@
 
                 Container4 As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderStyle: =BorderStyle.None
                     FillPortions: =0
                     LayoutAlignItems: =LayoutAlignItems.Center
                     LayoutDirection: =LayoutDirection.Vertical

@@ -200,7 +200,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =8
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    TemplateSize: =200//If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                     Transition: =Transition.Push
                     WrapCount: =3
                     ZIndex: =2
@@ -236,7 +236,7 @@
                         Size: =16
                         Text: =ThisItem.'Start Date'
                         Width: =131
-                        X: =231
+                        X: =184
                         Y: =24
                         ZIndex: =3
 
@@ -250,7 +250,7 @@
                             ="No Of Days : " 
                         Width: =140
                         X: =12
-                        Y: =76
+                        Y: =62
                         ZIndex: =4
 
                     Label11_1 As label:
@@ -259,8 +259,8 @@
                         OnSelect: =Select(Parent)
                         Size: =16
                         Text: =ThisItem.Days
-                        X: =231
-                        Y: =76
+                        X: =184
+                        Y: =62
                         ZIndex: =5
 
                     Label10_2 As label:
@@ -273,7 +273,7 @@
                             ="Type : " 
                         Width: =76
                         X: =12
-                        Y: =127
+                        Y: =94
                         ZIndex: =6
 
                     Label11_2 As label:
@@ -282,8 +282,9 @@
                         OnSelect: =Select(Parent)
                         Size: =16
                         Text: =ThisItem.'Leave Type'.Value
-                        X: =231
-                        Y: =127
+                        Width: =229
+                        X: =184
+                        Y: =94
                         ZIndex: =7
 
                     Label10_3 As label:
@@ -296,7 +297,7 @@
                             ="Status:  " 
                         Width: =76
                         X: =12
-                        Y: =180
+                        Y: =137
                         ZIndex: =8
 
                     Label11_3 As label:
@@ -306,8 +307,8 @@
                         Size: =16
                         Text: =ThisItem.'Approval Status'.Value
                         Width: =90
-                        X: =231
-                        Y: =180
+                        X: =184
+                        Y: =137
                         ZIndex: =9
 
         FooterContainer1_4 As groupContainer.horizontalAutoLayoutContainer:

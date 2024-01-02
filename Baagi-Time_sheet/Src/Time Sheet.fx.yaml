@@ -196,7 +196,7 @@
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =8
-                    TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                    TemplateSize: =200//If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                     Transition: =Transition.Push
                     WrapCount: =3
                     ZIndex: =2
@@ -241,7 +241,7 @@
                             ="Date : " 
                         Width: =73
                         X: =12
-                        Y: =145
+                        Y: =110
                         ZIndex: =4
 
                     Label11 As label:
@@ -249,7 +249,7 @@
                         OnSelect: =Select(Parent)
                         Text: =ThisItem.Date
                         X: =85
-                        Y: =145
+                        Y: =110
                         ZIndex: =5
 
                     Rectangle6 As rectangle:
@@ -257,8 +257,28 @@
                         Height: =2
                         OnSelect: =Select(Parent)
                         Width: =Parent.TemplateWidth
-                        Y: =139
+                        Y: =110
                         ZIndex: =6
+
+                    Label10_6 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        FontWeight: =FontWeight.Semibold
+                        Height: =38
+                        OnSelect: =Select(Parent)
+                        Text: |-
+                            ="Status : " 
+                        Width: =73
+                        X: =12
+                        Y: =139
+                        ZIndex: =7
+
+                    Label11_6 As label:
+                        Font: ="Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif"
+                        OnSelect: =Select(Parent)
+                        Text: =ThisItem.'Approval Status'.Value
+                        X: =85
+                        Y: =139
+                        ZIndex: =8
 
         FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Semibold
