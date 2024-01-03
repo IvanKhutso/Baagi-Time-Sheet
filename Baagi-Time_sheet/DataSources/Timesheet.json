@@ -23,6 +23,7 @@
       "{TriggerWindowEndToken}": "Trigger Window End Token",
       "{TriggerWindowStartToken}": "Trigger Window Start Token",
       "{VersionNumber}": "Version number",
+      "Action": "Action",
       "Approval_Status": "Approval Status",
       "Approval_Status#Id": "Approval Status Id",
       "Author": "Created By",
